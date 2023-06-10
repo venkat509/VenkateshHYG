@@ -1,0 +1,7727 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Record ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Owner ID",
+      "name": "OwnerId",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "Group",
+        "User"
+      ],
+      "relationshipName": "Owner",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Deleted",
+      "name": "IsDeleted",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Record Number",
+      "name": "Name",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Created Date",
+      "name": "CreatedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Created By ID",
+      "name": "CreatedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "CreatedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Modified Date",
+      "name": "LastModifiedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Last Modified By ID",
+      "name": "LastModifiedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "LastModifiedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "System Modstamp",
+      "name": "SystemModstamp",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "A1. Patient Identifier",
+      "name": "compliancequest__A1_Patient_Identifier__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Age Unit",
+      "name": "compliancequest__A2_Age_Unit__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "A2. Age",
+      "name": "compliancequest__A2_Age__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Date of Birth",
+      "name": "compliancequest__A2_Date_of_Birth__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "A3. Sex",
+      "name": "compliancequest__A3_Sex__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Weight Unit",
+      "name": "compliancequest__A4_Weight_Unit__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "A4. Weight",
+      "name": "compliancequest__A4_Weight__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "A5.a Ethnicity",
+      "name": "compliancequest__A5_a_Ethnicity__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "A5.b Race",
+      "name": "compliancequest__A5_b_Race__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "B1. Report Type",
+      "name": "compliancequest__B1_Report_Type__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Date of death",
+      "name": "compliancequest__B2_Date_of_death__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "B2. Outcomes attributed to adverse event",
+      "name": "compliancequest__B2_Outcomes_attributed_to_adverse_event__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "B3. Date of Event",
+      "name": "compliancequest__B3_Date_of_Event__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "B4. Date of this Report",
+      "name": "compliancequest__B4_Date_of_this_Report__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "B5. Describe event or problem",
+      "name": "compliancequest__B5_Describe_event_or_problem__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "B6. Relevant Tests/Laboratory Data",
+      "name": "compliancequest__B6_Relevant_Tests_Laboratory_Data__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "B7. Other Relevant History",
+      "name": "compliancequest__B7_Other_Relevant_History__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Date device returned to manufacturer",
+      "name": "compliancequest__D10_Date_device_returned_to_manufacturer__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "D10. Device Available for Evaluation?",
+      "name": "compliancequest__D10_Device_Available_for_Evaluation__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Returned To Manufacturer ?",
+      "name": "compliancequest__D10_Returned_To_Manufacturer__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "D1. Brand Name",
+      "name": "compliancequest__D1_Brand_Name__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "D2.a Common Device Name",
+      "name": "compliancequest__D2_a_Common_Device_Name__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "D2.b Procode",
+      "name": "compliancequest__D2_b_Procode__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer City",
+      "name": "compliancequest__D3_Manufacturer_City__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer Email",
+      "name": "compliancequest__D3_Manufacturer_Email__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer Fax Number",
+      "name": "compliancequest__D3_Manufacturer_Fax_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer Name",
+      "name": "compliancequest__D3_Manufacturer_Name__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer State",
+      "name": "compliancequest__D3_Manufacturer_State__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer Address Street Line 1",
+      "name": "compliancequest__D3_Mfr_Address_Street_Line_1__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer Address Street Line 2",
+      "name": "compliancequest__D3_Mfr_Address_Street_Line_2__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer Country Code",
+      "name": "compliancequest__D3_Mfr_Country_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer Postal Code",
+      "name": "compliancequest__D3_Mfr_Postal_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer State(Non US)",
+      "name": "compliancequest__D3_Mfr_State_Non_US__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer Zip Code Extension",
+      "name": "compliancequest__D3_Mfr_Zip_Code_Extension__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer Zip Code",
+      "name": "compliancequest__D3_Mfr_Zip_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Catalog #",
+      "name": "compliancequest__D4_Catalog_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Lot #",
+      "name": "compliancequest__D4_Lot_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Model #",
+      "name": "compliancequest__D4_Model_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Serial #",
+      "name": "compliancequest__D4_Serial_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Suspect Device Expiration Date",
+      "name": "compliancequest__D4_Suspect_Device_Expiration_Date__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Unique Identifier (UDI) #",
+      "name": "compliancequest__D4_Unique_Identifier_UDI__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Operator of Device - Other",
+      "name": "compliancequest__D5_Operator_of_Device_Other__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "D5. Operator of device - Code",
+      "name": "compliancequest__D5_Operator_of_device_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "D6. If Implanted, give Date",
+      "name": "compliancequest__D6_If_Implanted_Give_Date__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "D7. If Explanted, give Date",
+      "name": "compliancequest__D7_If_explanted_give_Date__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "D7a. Is this a single-use device ....",
+      "name": "compliancequest__D8_Is_this_a_Single_Use_Device__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Reprocessor Address Street Line 1",
+      "name": "compliancequest__D9_Reprocessor_Address_Street_Line_1__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Reprocessor Address Street Line 2",
+      "name": "compliancequest__D9_Reprocessor_Address_Street_Line_2__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Reprocessor City",
+      "name": "compliancequest__D9_Reprocessor_City__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Reprocessor Country Code",
+      "name": "compliancequest__D9_Reprocessor_Country_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Reprocessor Email",
+      "name": "compliancequest__D9_Reprocessor_Email__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Reprocessor Fax Number",
+      "name": "compliancequest__D9_Reprocessor_Fax_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Reprocessor Name",
+      "name": "compliancequest__D9_Reprocessor_Name__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Reprocessor Postal Code",
+      "name": "compliancequest__D9_Reprocessor_Postal_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Reprocessor State Code",
+      "name": "compliancequest__D9_Reprocessor_State_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Reprocessor State(Non US)",
+      "name": "compliancequest__D9_Reprocessor_State_Non_US__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Reprocessor Zip Code Extension",
+      "name": "compliancequest__D9_Reprocessor_Zip_Code_Extension__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Reprocessor Zip Code",
+      "name": "compliancequest__D9_Reprocessor_Zip_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Initial Reporter Address Street Line 1",
+      "name": "compliancequest__E1_Initial_Reporter_Address_St_Line_1__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Initial Reporter Address Street Line 2",
+      "name": "compliancequest__E1_Initial_Reporter_Address_St_Line_2__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Initial Reporter City",
+      "name": "compliancequest__E1_Initial_Reporter_City__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Initial Reporter Country Code",
+      "name": "compliancequest__E1_Initial_Reporter_Country_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Initial Reporter Email",
+      "name": "compliancequest__E1_Initial_Reporter_Email__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Initial Reporter Facility Name",
+      "name": "compliancequest__E1_Initial_Reporter_Facility_Name__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Initial Reporter Fax Number",
+      "name": "compliancequest__E1_Initial_Reporter_Fax_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Initial Reporter First Name",
+      "name": "compliancequest__E1_Initial_Reporter_First_Name__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Initial Reporter Last Name",
+      "name": "compliancequest__E1_Initial_Reporter_Last_Name__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Initial Reporter Middle Name",
+      "name": "compliancequest__E1_Initial_Reporter_Middle_Name__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Initial Reporter Postal Code",
+      "name": "compliancequest__E1_Initial_Reporter_Postal_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Initial Reporter State Code",
+      "name": "compliancequest__E1_Initial_Reporter_State_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Initial Reporter State(Non US)",
+      "name": "compliancequest__E1_Initial_Reporter_State_Non_US__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Initial Reporter Title",
+      "name": "compliancequest__E1_Initial_Reporter_Title__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Initial Reporter Zip Code Extension",
+      "name": "compliancequest__E1_Initial_Reporter_Zip_Code_Extension__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Initial Reporter Zip Code",
+      "name": "compliancequest__E1_Initial_Reporter_Zip_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Phone Number",
+      "name": "compliancequest__E1_Phone_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "E2. Health Professional?",
+      "name": "compliancequest__E2_Health_Professional__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "E3. Occupation",
+      "name": "compliancequest__E3_Occupation__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "F12. Location where event occurred",
+      "name": "compliancequest__F12_Location_Where_Event_Occured__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Other Location Where the Event Occurred",
+      "name": "compliancequest__F12_Other_Location_Where_Event_Occurred__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Date Report Sent to Manufacturer",
+      "name": "compliancequest__F13_Date_Sent_to_Manufacturer__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Device Manufacturer City",
+      "name": "compliancequest__F14_Device_Manufacturer_City__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Device Manufacturer Country Code",
+      "name": "compliancequest__F14_Device_Manufacturer_Country_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Device Manufacturer Email",
+      "name": "compliancequest__F14_Device_Manufacturer_Email__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Device Manufacturer Name",
+      "name": "compliancequest__F14_Device_Manufacturer_Name__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Device Manufacturer Postal Code",
+      "name": "compliancequest__F14_Device_Manufacturer_Postal_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Device Manufacturer Address Street Line1",
+      "name": "compliancequest__F14_Device_Mfr_Address_Street_Line1__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Device Manufacturer Address Street Line2",
+      "name": "compliancequest__F14_Device_Mfr_Address_Street_Line2__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Device Manufacturer Fax Number",
+      "name": "compliancequest__F14_Device_Mfr_Fax_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Device Manufacturer State Code",
+      "name": "compliancequest__F14_Device_Mfr_State_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer State(Non US)",
+      "name": "compliancequest__F14_Device_Mfr_State_Non_US__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Device Manufacturer Zip Code Extension",
+      "name": "compliancequest__F14_Device_Mfr_Zip_Code_Extension__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Device Manufacturer Zip Code",
+      "name": "compliancequest__F14_Device_Mfr_Zip_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "F1. For Use By",
+      "name": "compliancequest__F1_For_Use_By__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "F2. UF/Importer Report Number",
+      "name": "compliancequest__F2_UF_Importer_Report_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "User Facility Address Street Line 1",
+      "name": "compliancequest__F3_User_Facility_Address_Street_Line_1__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "User Facility Address Street Line 2",
+      "name": "compliancequest__F3_User_Facility_Address_Street_Line_2__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "User Facility City",
+      "name": "compliancequest__F3_User_Facility_City__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "User Facility Contact Email",
+      "name": "compliancequest__F3_User_Facility_Contact_Email__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "User Facility Country Code",
+      "name": "compliancequest__F3_User_Facility_Country_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "User Facility Name",
+      "name": "compliancequest__F3_User_Facility_Name__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "User Facility Postal Code",
+      "name": "compliancequest__F3_User_Facility_Postal_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "User Facility State Code",
+      "name": "compliancequest__F3_User_Facility_State_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "User Facility State(Non US)",
+      "name": "compliancequest__F3_User_Facility_State_Non_US__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "User Facility Zip Code Extension",
+      "name": "compliancequest__F3_User_Facility_Zip_Code_Extension__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "User Facility Zip Code",
+      "name": "compliancequest__F3_User_Facility_Zip_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "User Facility Contact Email",
+      "name": "compliancequest__F4_User_Facility_Contact_Email__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "User Facility Contact First Name",
+      "name": "compliancequest__F4_User_Facility_Contact_First_Name__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "User Facility Contact Last Name",
+      "name": "compliancequest__F4_User_Facility_Contact_Last_Name__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "User Facility Contact Title",
+      "name": "compliancequest__F4_User_Facility_Contact_Title__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "User Facility Contact Middle Initial",
+      "name": "compliancequest__F4_Usr_Facility_Contact_Middle_Name__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "F5. Phone Number",
+      "name": "compliancequest__F5_Phone_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "F6. Date User Facility or Importer ...",
+      "name": "compliancequest__F6_Date_User_Facility_Importer__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Follow-up #",
+      "name": "compliancequest__F7_Follow_up_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Follow-up #",
+      "name": "compliancequest__F7_Followup_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "F7. Type Of Report",
+      "name": "compliancequest__F7_Type_Of_Report__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "F8. Date of This Report",
+      "name": "compliancequest__F8_Date_of_This_Report__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Approximate age Unit",
+      "name": "compliancequest__F9_Approximate_Age_Unit__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "F9. Approximate age of device",
+      "name": "compliancequest__F9_Approximate_age_of_device__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Field",
+      "name": "compliancequest__Field__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturing Site  City",
+      "name": "compliancequest__G1_Manufacturing_Site_City__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturing Site Country Code",
+      "name": "compliancequest__G1_Manufacturing_Site_Country_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturing Site Email",
+      "name": "compliancequest__G1_Manufacturing_Site_Email__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturing Site Fax Number",
+      "name": "compliancequest__G1_Manufacturing_Site_Fax_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturing Site Name",
+      "name": "compliancequest__G1_Manufacturing_Site_Name__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturing Site State Code",
+      "name": "compliancequest__G1_Manufacturing_Site_State_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturing Site State(Non US)",
+      "name": "compliancequest__G1_Manufacturing_Site_State_Non_US__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturing Site Zip Code Extension",
+      "name": "compliancequest__G1_Manufacturing_Site_Zip_Code_Extension__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer Contact Address St. Line 1",
+      "name": "compliancequest__G1_Mfr_Contact_Address_Street_Line_1__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer Contact Address St. Line 2",
+      "name": "compliancequest__G1_Mfr_Contact_Address_Street_Line_2__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer Contact City",
+      "name": "compliancequest__G1_Mfr_Contact_City__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer Contact Country Code",
+      "name": "compliancequest__G1_Mfr_Contact_Country_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer Contact Email",
+      "name": "compliancequest__G1_Mfr_Contact_Email__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer Contact Facility Name",
+      "name": "compliancequest__G1_Mfr_Contact_Facility_Name__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer Contact Fax Number",
+      "name": "compliancequest__G1_Mfr_Contact_Fax_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer Contact First Name",
+      "name": "compliancequest__G1_Mfr_Contact_First_Name__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer Contact Last Name",
+      "name": "compliancequest__G1_Mfr_Contact_Last_Name__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer Contact Middle Name",
+      "name": "compliancequest__G1_Mfr_Contact_Middle_Name__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer Contact Postal Code",
+      "name": "compliancequest__G1_Mfr_Contact_Postal_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer Contact State Code",
+      "name": "compliancequest__G1_Mfr_Contact_State_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer Contact State(Non US)",
+      "name": "compliancequest__G1_Mfr_Contact_State_Non_US__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer Contact Title",
+      "name": "compliancequest__G1_Mfr_Contact_Title__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer Contact Zip Code Extension",
+      "name": "compliancequest__G1_Mfr_Contact_Zip_Code_Extension__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer Contact Zip Code",
+      "name": "compliancequest__G1_Mfr_Contact_Zip_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturing Site Address St. Line 1",
+      "name": "compliancequest__G1_Mfr_Site_Address_Street_Line_1__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturing Site Address St. Line 2",
+      "name": "compliancequest__G1_Mfr_Site_Address_Street_Line_2__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturing Site Postal Code",
+      "name": "compliancequest__G1_Mfr_Site_Postal_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturing Site Zip Code",
+      "name": "compliancequest__G1_Mfr_Site_Zip_Code__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "G2. Phone Number",
+      "name": "compliancequest__G2_Phone_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Other Report Source",
+      "name": "compliancequest__G3_Other_Report_Source__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "G3. Report source",
+      "name": "compliancequest__G3_Report_source__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "G4. Date received by manufacturer",
+      "name": "compliancequest__G4_Date_Received_By_Manufacturer__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "ANDA #",
+      "name": "compliancequest__G5_ANDA_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "BLA #",
+      "name": "compliancequest__G5_BLA_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Combination Product",
+      "name": "compliancequest__G5_Combination_Product__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "IND #",
+      "name": "compliancequest__G5_IND_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "NDA #",
+      "name": "compliancequest__G5_NDA_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "OTC",
+      "name": "compliancequest__G5_OTC__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "PMA/510(k) #",
+      "name": "compliancequest__G5_PMA_510_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Pre-1938",
+      "name": "compliancequest__G5_Pre_1938__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "G5. Premarket Numbers",
+      "name": "compliancequest__G5_Premarket_Numbers__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "G6. IF IND, Give Protocol #",
+      "name": "compliancequest__G6_IF_IND_Give_Protocol_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Follow-up #",
+      "name": "compliancequest__G7_Follow_up_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Follow-Up #",
+      "name": "compliancequest__G7_Followup_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "G7. Type of Report",
+      "name": "compliancequest__G7_Type_of_Report__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "G8. Adverse Event Term(s)",
+      "name": "compliancequest__G8_Adverse_Event_Term__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "G9. MFR Report #",
+      "name": "compliancequest__G9_MFR_Report_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "H10. Additional Manufacturer Narrative",
+      "name": "compliancequest__H10_Additional_Manufacturer_Narrative__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Additional mfr narrative/corrected ...",
+      "name": "compliancequest__H10_and_or_H11_Description__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "H11. Corrected Data",
+      "name": "compliancequest__H11_Corrected_Data__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "H1. Type of Reportable Event",
+      "name": "compliancequest__H1_Type_of_Reportable_Event__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "H2. If follow-up, what type?",
+      "name": "compliancequest__H2_Follow_Up_Type__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "H3. Device Evaluated By Mfr?",
+      "name": "compliancequest__H3_Device_Evaluated_By_MFR__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Device Not Returned to Manufacturer?",
+      "name": "compliancequest__H3_Device_Not_Returned_to_Manufacturer__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Device evaluated by mfr?Summary Attached",
+      "name": "compliancequest__H3_Evaluation_Summary_Attached__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Reason for No Evaluation(Other)",
+      "name": "compliancequest__H3_Reason_for_No_Evaluation_Other__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "If not evaluated, select an explanation",
+      "name": "compliancequest__H3_Reason_for_No_Evaluation__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "H4. Device manufacture Date",
+      "name": "compliancequest__H4_Device_manufacture_Date__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "H5. Labeled for single use?",
+      "name": "compliancequest__H5_Labelled_for_Single_Use__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "H7. If remedial action initiated, select",
+      "name": "compliancequest__H7_Remedial_Action_Type_MultiSelect__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Remedial Action Type(Other)",
+      "name": "compliancequest__H7_Remedial_Action_Type_Other__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "[DEPRECATED]Remedial Action Type",
+      "name": "compliancequest__H7_Remedial_Action_Type__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "H8. Usage Of Device",
+      "name": "compliancequest__H8_Usage_Of_Device__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "H9. If action reported to FDA under ...",
+      "name": "compliancequest__H9_Action_reported_to_FDA__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Company Submitting",
+      "name": "compliancequest__Header_Company_Submitting__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Mfr Report #",
+      "name": "compliancequest__Header_Mfr_Report_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "UF/Importer Report #",
+      "name": "compliancequest__Header_UF_Importer_Report_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Null",
+      "name": "compliancequest__Null__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Parent Id",
+      "name": "compliancequest__Parent_Id__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Medwatch",
+      "name": "compliancequest__SQX_Medwatch__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "compliancequest__SQX_Medwatch__c"
+      ],
+      "relationshipName": "compliancequest__SQX_Medwatch__r",
+      "sortable": true,
+      "type": "reference"
+    }
+  ],
+  "label": "Medwatch Null Value",
+  "childRelationships": [
+    {
+      "cascadeDelete": true,
+      "childSObject": "AttachedContentDocument",
+      "deprecatedAndHidden": false,
+      "field": "LinkedEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "AttachedContentDocuments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "AttachedContentNote",
+      "deprecatedAndHidden": false,
+      "field": "LinkedEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "AttachedContentNotes",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "Attachment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Attachments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "CollaborationGroupRecord",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "RecordAssociatedGroups",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "CombinedAttachment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "CombinedAttachments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ContactRequest",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ContactRequests",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ContentDistribution",
+      "deprecatedAndHidden": false,
+      "field": "RelatedRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ContentDocumentLink",
+      "deprecatedAndHidden": false,
+      "field": "LinkedEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ContentDocumentLinks",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ContentVersion",
+      "deprecatedAndHidden": false,
+      "field": "FirstPublishLocationId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "DuplicateRecordItem",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "DuplicateRecordItems",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "EntitySubscription",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "FeedSubscriptionsForEntity",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "EventChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "EventRelationChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "RelationId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FeedComment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "FeedItem",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FlowRecordRelation",
+      "deprecatedAndHidden": false,
+      "field": "RelatedRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "Note",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Notes",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "NoteAndAttachment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "NotesAndAttachments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ProcessInstance",
+      "deprecatedAndHidden": false,
+      "field": "TargetObjectId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ProcessInstances",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ProcessInstanceHistory",
+      "deprecatedAndHidden": false,
+      "field": "TargetObjectId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ProcessSteps",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "RecordAction",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "RecordActions",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "RecordActionHistory",
+      "deprecatedAndHidden": false,
+      "field": "ParentRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "RecordActionHistories",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "TaskChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "TopicAssignment",
+      "deprecatedAndHidden": false,
+      "field": "EntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "TopicAssignments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "compliancequest__SQX_Medwatch__c",
+      "deprecatedAndHidden": false,
+      "field": "compliancequest__SQX_Medwatch_Null_Value__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "compliancequest__SQX_Medwatch_Null_Values__r",
+      "restrictedDelete": false
+    }
+  ],
+  "custom": true,
+  "name": "compliancequest__SQX_Medwatch_Null_Value__c",
+  "queryable": true
+}

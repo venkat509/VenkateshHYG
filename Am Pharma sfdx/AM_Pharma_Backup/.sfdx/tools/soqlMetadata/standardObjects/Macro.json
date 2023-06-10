@@ -1,0 +1,2311 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Macro ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Owner ID",
+      "name": "OwnerId",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "Group",
+        "User"
+      ],
+      "relationshipName": "Owner",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Deleted",
+      "name": "IsDeleted",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Macro Name",
+      "name": "Name",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Created Date",
+      "name": "CreatedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Created By ID",
+      "name": "CreatedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "CreatedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Modified Date",
+      "name": "LastModifiedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Last Modified By ID",
+      "name": "LastModifiedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "LastModifiedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "System Modstamp",
+      "name": "SystemModstamp",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Viewed Date",
+      "name": "LastViewedDate",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Referenced Date",
+      "name": "LastReferencedDate",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": "richtextarea",
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Description",
+      "name": "Description",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Supports Classic",
+      "name": "IsAlohaSupported",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Supports Lightning",
+      "name": "IsLightningSupported",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Apply To",
+      "name": "StartingContext",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Account",
+          "validFor": null,
+          "value": "Account"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Action",
+          "validFor": null,
+          "value": "compliancequest__SQX_Action__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Action Plan",
+          "validFor": null,
+          "value": "compliancequest__SQX_Action_Plan__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Alias",
+          "validFor": null,
+          "value": "compliancequest__SQX_Alias__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Answer Option",
+          "validFor": null,
+          "value": "compliancequest__SQX_Answer_Option__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Answer Option Attribute",
+          "validFor": null,
+          "value": "compliancequest__SQX_Answer_Option_Attribute__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Approval Matrix",
+          "validFor": null,
+          "value": "compliancequest__SQX_Approval_Matrix__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Approval Matrix Step",
+          "validFor": null,
+          "value": "compliancequest__SQX_Approval_Matrix_Step__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Approved Investigation",
+          "validFor": null,
+          "value": "compliancequest__SQX_Approved_Investigation__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Approved Root Cause",
+          "validFor": null,
+          "value": "compliancequest__SQX_Approved_Root_Cause__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Assessment",
+          "validFor": null,
+          "value": "compliancequest__SQX_Assessment__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Assessment Question",
+          "validFor": null,
+          "value": "compliancequest__SQX_Assessment_Question__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Asset",
+          "validFor": null,
+          "value": "Asset"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Asset Relationship",
+          "validFor": null,
+          "value": "AssetRelationship"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Associated Item",
+          "validFor": null,
+          "value": "compliancequest__SQX_Complaint_Associated_Item__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Association",
+          "validFor": null,
+          "value": "compliancequest__SQX_Association__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Audit",
+          "validFor": null,
+          "value": "compliancequest__SQX_Audit__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Audit Checklist",
+          "validFor": null,
+          "value": "compliancequest__SQX_Audit_Checklist__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Audit Criterion (Obsolete)",
+          "validFor": null,
+          "value": "compliancequest__SQX_Audit_Criteria__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Audit Criterion Requirement",
+          "validFor": null,
+          "value": "compliancequest__SQX_Doc_Criterion_Requirement__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Audit Program",
+          "validFor": null,
+          "value": "compliancequest__SQX_Audit_Program__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Audit Program Record Activity",
+          "validFor": null,
+          "value": "compliancequest__SQX_Audit_Program_Record_Activity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Audit Program Scope",
+          "validFor": null,
+          "value": "compliancequest__SQX_Audit_Program_Scope__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Audit Record Activity",
+          "validFor": null,
+          "value": "compliancequest__SQX_Audit_Record_Activity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Audit Report",
+          "validFor": null,
+          "value": "compliancequest__SQX_Audit_Report__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Audit Response",
+          "validFor": null,
+          "value": "compliancequest__SQX_Audit_Response__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Audit Target",
+          "validFor": null,
+          "value": "compliancequest__SQX_Audit_Target__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Audit Team Member",
+          "validFor": null,
+          "value": "compliancequest__SQX_Audit_Team__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Authorization Form",
+          "validFor": null,
+          "value": "AuthorizationForm"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Authorization Form Consent",
+          "validFor": null,
+          "value": "AuthorizationFormConsent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Authorization Form Data Use",
+          "validFor": null,
+          "value": "AuthorizationFormDataUse"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Authorization Form Text",
+          "validFor": null,
+          "value": "AuthorizationFormText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Auto Number",
+          "validFor": null,
+          "value": "compliancequest__SQX_Auto_Number__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Binder",
+          "validFor": null,
+          "value": "compliancequest__SQX_Binder__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Business Unit",
+          "validFor": null,
+          "value": "compliancequest__SQX_Business_Unit__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Calibration",
+          "validFor": null,
+          "value": "compliancequest__SQX_Calibration__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Canada - Medical Device Problem Report",
+          "validFor": null,
+          "value": "compliancequest__SQX_Canada_Report__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CAPA",
+          "validFor": null,
+          "value": "compliancequest__SQX_CAPA__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CAPA Change Order",
+          "validFor": null,
+          "value": "compliancequest__SQX_CAPA_Change_Order__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CAPA Investigation",
+          "validFor": null,
+          "value": "compliancequest__SQX_CAPA_Investigation__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CAPA Record Activity",
+          "validFor": null,
+          "value": "compliancequest__SQX_CAPA_Record_Activity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CAPA Response Approval",
+          "validFor": null,
+          "value": "compliancequest__SQX_CAPA_Response_Approval__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CAPA Team",
+          "validFor": null,
+          "value": "compliancequest__SQX_CAPA_Team_Member__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Case",
+          "validFor": null,
+          "value": "Case"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change",
+          "validFor": null,
+          "value": "compliancequest__SQX_Implementation__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Model",
+          "validFor": null,
+          "value": "compliancequest__SQX_Change_Order_Model__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Order",
+          "validFor": null,
+          "value": "compliancequest__SQX_Change_Order__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Order Approval",
+          "validFor": null,
+          "value": "compliancequest__SQX_Change_Order_Approval__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Order Record Activity",
+          "validFor": null,
+          "value": "compliancequest__SQX_Change_Order_Record_Activity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Request",
+          "validFor": null,
+          "value": "compliancequest__SQX_Change_Request__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Request Approval",
+          "validFor": null,
+          "value": "compliancequest__SQX_Change_Request_Approval__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Request Order",
+          "validFor": null,
+          "value": "compliancequest__SQX_Change_Request_Order__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Request Record Activity",
+          "validFor": null,
+          "value": "compliancequest__SQX_Change_Request_Record_Activity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Workflow",
+          "validFor": null,
+          "value": "compliancequest__SQX_Change_Workflow__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Checklist Target",
+          "validFor": null,
+          "value": "compliancequest__SQX_Checklist_Target__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Communication Subscription",
+          "validFor": null,
+          "value": "CommSubscription"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Communication Subscription Channel Type",
+          "validFor": null,
+          "value": "CommSubscriptionChannelType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Communication Subscription Consent",
+          "validFor": null,
+          "value": "CommSubscriptionConsent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Communication Subscription Timing",
+          "validFor": null,
+          "value": "CommSubscriptionTiming"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Complaint",
+          "validFor": null,
+          "value": "compliancequest__SQX_Complaint__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Complaint Contact",
+          "validFor": null,
+          "value": "compliancequest__SQX_Complaint_Contact__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Complaint Record Activity",
+          "validFor": null,
+          "value": "compliancequest__SQX_Complaint_Record_Activity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Complaint Script Execution Link",
+          "validFor": null,
+          "value": "compliancequest__SQX_Complaint_Script_Execution_Link__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Complaint Step",
+          "validFor": null,
+          "value": "compliancequest__SQX_Complaint_Task__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Contact",
+          "validFor": null,
+          "value": "Contact"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Contact Point Address",
+          "validFor": null,
+          "value": "ContactPointAddress"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Contact Point Email",
+          "validFor": null,
+          "value": "ContactPointEmail"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Contact Point Phone",
+          "validFor": null,
+          "value": "ContactPointPhone"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Containment",
+          "validFor": null,
+          "value": "compliancequest__SQX_Containment__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Contract",
+          "validFor": null,
+          "value": "Contract"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Controlled Document",
+          "validFor": null,
+          "value": "compliancequest__SQX_Controlled_Document__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Controlled Document Approval",
+          "validFor": null,
+          "value": "compliancequest__SQX_Controlled_Document_Approval__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Controlled Document Record Activity",
+          "validFor": null,
+          "value": "compliancequest__SQX_Controlled_Doc_Record_Activity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Controlled Document Release",
+          "validFor": null,
+          "value": "compliancequest__SQX_Controlled_Document_Release__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CQ Analytics Data",
+          "validFor": null,
+          "value": "compliancequest__CQ_Analytics_Data__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CQ Content Link",
+          "validFor": null,
+          "value": "compliancequest__CQ_Content_Link__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CQ Event Failure Log",
+          "validFor": null,
+          "value": "compliancequest__SQX_Event_Failure_Log__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CQ Location",
+          "validFor": null,
+          "value": "compliancequest__SQX_Location__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CQ Task",
+          "validFor": null,
+          "value": "compliancequest__SQX_Task__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Criterion Requirement",
+          "validFor": null,
+          "value": "compliancequest__SQX_Criterion_Requirement__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "D10. Concomitant medical product ...",
+          "validFor": null,
+          "value": "compliancequest__SQX_Medwatch_D11_Medical_Product__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "D11 Medical Product Null Value",
+          "validFor": null,
+          "value": "compliancequest__SQX_Medwatch_D11_Medical_Prod_Null_Value__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Data Use Purpose",
+          "validFor": null,
+          "value": "DataUsePurpose"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Decision Tree",
+          "validFor": null,
+          "value": "compliancequest__SQX_Decision_Tree__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Decision Tree Answer",
+          "validFor": null,
+          "value": "compliancequest__SQX_DT_Answer__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Defect",
+          "validFor": null,
+          "value": "compliancequest__SQX_NC_Defect__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Defect",
+          "validFor": null,
+          "value": "compliancequest__SQX_CAPA_Defect__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Defect",
+          "validFor": null,
+          "value": "compliancequest__SQX_Complaint_Defect__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Department",
+          "validFor": null,
+          "value": "compliancequest__SQX_Department__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Detection",
+          "validFor": null,
+          "value": "compliancequest__SQX_Detection__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Deviation Process Step",
+          "validFor": null,
+          "value": "compliancequest__SQX_Deviation_Process2__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Deviation Process Step",
+          "validFor": null,
+          "value": "compliancequest__SQX_Deviation_Process__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Disposition",
+          "validFor": null,
+          "value": "compliancequest__SQX_Disposition__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Distribution Tracking",
+          "validFor": null,
+          "value": "compliancequest__SQX_Distribution_Tracking__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Division",
+          "validFor": null,
+          "value": "compliancequest__SQX_Division__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Document Review",
+          "validFor": null,
+          "value": "compliancequest__SQX_Document_Review__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Document Training",
+          "validFor": null,
+          "value": "compliancequest__SQX_Personnel_Document_Training__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Document Training (Obsolete)",
+          "validFor": null,
+          "value": "compliancequest__SQX_Document_Training__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Effectiveness Review",
+          "validFor": null,
+          "value": "compliancequest__SQX_Effectiveness_Review__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Electronic Signature Record Activity",
+          "validFor": null,
+          "value": "compliancequest__SQX_Electronic_Signature_Record_Activity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Engagement Channel Type",
+          "validFor": null,
+          "value": "EngagementChannelType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Equipment",
+          "validFor": null,
+          "value": "compliancequest__SQX_Equipment__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Equipment Event History",
+          "validFor": null,
+          "value": "compliancequest__SQX_Equipment_Event_History__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Equipment Event Schedule",
+          "validFor": null,
+          "value": "compliancequest__SQX_Equipment_Event_Schedule__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Equipment Record Activity",
+          "validFor": null,
+          "value": "compliancequest__SQX_Equipment_Record_Activity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Escalation Reference",
+          "validFor": null,
+          "value": "compliancequest__SQX_Escalation_Reference__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Event",
+          "validFor": null,
+          "value": "Event"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Evidence",
+          "validFor": null,
+          "value": "compliancequest__SQX_Evidence__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Extension Request",
+          "validFor": null,
+          "value": "compliancequest__SQX_Extension_Request__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "F10. Clinical Code",
+          "validFor": null,
+          "value": "compliancequest__SQX_Medwatch_F10_Patient_Code__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "F10. Device Code",
+          "validFor": null,
+          "value": "compliancequest__SQX_Medwatch_F10_Device_Code__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Feed Item",
+          "validFor": null,
+          "value": "FeedItem"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Finding",
+          "validFor": null,
+          "value": "compliancequest__SQX_Finding__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Finding Defect",
+          "validFor": null,
+          "value": "compliancequest__SQX_Defect__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Finding Impacted Part / Lot",
+          "validFor": null,
+          "value": "compliancequest__SQX_Impacted_Product__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Finding Investigation",
+          "validFor": null,
+          "value": "compliancequest__SQX_Finding_Investigation__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Finding Record Activity",
+          "validFor": null,
+          "value": "compliancequest__SQX_Finding_Record_Activity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "General Report",
+          "validFor": null,
+          "value": "compliancequest__SQX_General_Report__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Group",
+          "validFor": null,
+          "value": "CollaborationGroup"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "H6. Clinical Code",
+          "validFor": null,
+          "value": "compliancequest__SQX_Medwatch_H6_Patient_Code__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "H6. Conclusion",
+          "validFor": null,
+          "value": "compliancequest__SQX_Medwatch_H6_Conclusion__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "H6. Device Code",
+          "validFor": null,
+          "value": "compliancequest__SQX_Medwatch_H6_Device_Code__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "H6. Investigation Finding",
+          "validFor": null,
+          "value": "compliancequest__SQX_Medwatch_H6_Result__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "H6. Type of Investigation",
+          "validFor": null,
+          "value": "compliancequest__SQX_Medwatch_H6_Method__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Hierarchical Code",
+          "validFor": null,
+          "value": "compliancequest__SQX_Defect_Code__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Image",
+          "validFor": null,
+          "value": "Image"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Impact",
+          "validFor": null,
+          "value": "compliancequest__SQX_Risk_Impact__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Impact",
+          "validFor": null,
+          "value": "compliancequest__SQX_Impact__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Impact Assessment",
+          "validFor": null,
+          "value": "compliancequest__SQX_Impact_Assessment_Model__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Impact Assessment",
+          "validFor": null,
+          "value": "compliancequest__SQX_Impact_Assessment__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Impact Assessment Answer",
+          "validFor": null,
+          "value": "compliancequest__SQX_Impact_Assessment_Answer__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Impact Assessment Execution",
+          "validFor": null,
+          "value": "compliancequest__SQX_Impact_Assessment_Execution__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Impact Assessment Outcome",
+          "validFor": null,
+          "value": "compliancequest__SQX_Impact_Assessment_Outcome__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Impacted Customer",
+          "validFor": null,
+          "value": "compliancequest__SQX_Impacted_Customer__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Impacted Document",
+          "validFor": null,
+          "value": "compliancequest__SQX_Impacted_Document__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Impacted Part / Lot",
+          "validFor": null,
+          "value": "compliancequest__SQX_NC_Impacted_Product__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Impacted Site",
+          "validFor": null,
+          "value": "compliancequest__SQX_Impacted_Site__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Impacted Site",
+          "validFor": null,
+          "value": "compliancequest__SQX_CAPA_Impacted_Site__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Implementation Extension History",
+          "validFor": null,
+          "value": "compliancequest__SQX_Action_Extension_History__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Individual",
+          "validFor": null,
+          "value": "Individual"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Inspection",
+          "validFor": null,
+          "value": "compliancequest__SQX_Inspection__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Inspection Detail",
+          "validFor": null,
+          "value": "compliancequest__SQX_Inspection_Detail__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Inspection Record Activity",
+          "validFor": null,
+          "value": "compliancequest__SQX_Inspection_Record_Activity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Investigation",
+          "validFor": null,
+          "value": "compliancequest__SQX_Investigation__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Investigation Record Activity",
+          "validFor": null,
+          "value": "compliancequest__SQX_Investigation_Record_Activity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Investigation Reporting Code",
+          "validFor": null,
+          "value": "compliancequest__SQX_Investigation_Reporting_Code__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Investigation Tool",
+          "validFor": null,
+          "value": "compliancequest__SQX_Investigation_Tool__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Investigation Tool Name",
+          "validFor": null,
+          "value": "compliancequest__SQX_Investigation_Tool_Name__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Job Function",
+          "validFor": null,
+          "value": "compliancequest__SQX_Job_Function__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lead",
+          "validFor": null,
+          "value": "Lead"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lessons Learned",
+          "validFor": null,
+          "value": "compliancequest__SQX_Lessons_Learned__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lessons Learned Approval",
+          "validFor": null,
+          "value": "compliancequest__SQX_Lessons_Learned_Approval__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Likelihood",
+          "validFor": null,
+          "value": "compliancequest__SQX_Likelihood__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Linked Investigation",
+          "validFor": null,
+          "value": "compliancequest__SQX_Linked_Investigation__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Linked Related Change",
+          "validFor": null,
+          "value": "compliancequest__SQX_Linked_Related_Change__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Linked Risk Treatment",
+          "validFor": null,
+          "value": "compliancequest__SQX_Linked_Risk_Treatment__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Location",
+          "validFor": null,
+          "value": "Location"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Location Trust Measure",
+          "validFor": null,
+          "value": "LocationTrustMeasure"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Long Text History",
+          "validFor": null,
+          "value": "compliancequest__SQX_Long_Text_History__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lot Info",
+          "validFor": null,
+          "value": "compliancequest__SQX_Lot_Info__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Material Transaction",
+          "validFor": null,
+          "value": "compliancequest__SQX_Material_Transaction__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "MedDev",
+          "validFor": null,
+          "value": "compliancequest__SQX_MedDev__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Medwatch",
+          "validFor": null,
+          "value": "compliancequest__SQX_Medwatch__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Medwatch Null Value",
+          "validFor": null,
+          "value": "compliancequest__SQX_Medwatch_Null_Value__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Meeting",
+          "validFor": null,
+          "value": "compliancequest__SQX_Meeting__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Meeting Attendee",
+          "validFor": null,
+          "value": "compliancequest__SQX_Attendee__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Meeting Dashboard",
+          "validFor": null,
+          "value": "compliancequest__SQX_Meeting_Dashboard__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Meeting Record Activity",
+          "validFor": null,
+          "value": "compliancequest__SQX_Meeting_Record_Activity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Meeting Series",
+          "validFor": null,
+          "value": "compliancequest__SQX_Meeting_Series__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NC CAPA",
+          "validFor": null,
+          "value": "compliancequest__SQX_NC_CAPA__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NC Record Activities",
+          "validFor": null,
+          "value": "compliancequest__SQX_NC_Record_Activity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NC Staging",
+          "validFor": null,
+          "value": "compliancequest__SQX_NC_Staging__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Nonconformance",
+          "validFor": null,
+          "value": "compliancequest__SQX_Nonconformance__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Nonconformance Investigation",
+          "validFor": null,
+          "value": "compliancequest__SQX_NC_Investigation__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Nonconformance Response Approval",
+          "validFor": null,
+          "value": "compliancequest__SQX_Nonconformance_Response_Approval__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Nonconformance Team",
+          "validFor": null,
+          "value": "compliancequest__SQX_NC_Team_Member__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Objective Evidence",
+          "validFor": null,
+          "value": "compliancequest__SQX_Objective_Evidence__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "On-boarding Step",
+          "validFor": null,
+          "value": "compliancequest__SQX_Onboarding_Step2__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "On-boarding Step",
+          "validFor": null,
+          "value": "compliancequest__SQX_Onboarding_Step__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Opportunity",
+          "validFor": null,
+          "value": "Opportunity"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Opportunity Contact Role",
+          "validFor": null,
+          "value": "OpportunityContactRole"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Order",
+          "validFor": null,
+          "value": "Order"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Part",
+          "validFor": null,
+          "value": "compliancequest__SQX_Part__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Part Family",
+          "validFor": null,
+          "value": "compliancequest__SQX_Part_Family__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Part Link",
+          "validFor": null,
+          "value": "compliancequest__SQX_Part_Link__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Party Consent",
+          "validFor": null,
+          "value": "PartyConsent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Periodic Review",
+          "validFor": null,
+          "value": "compliancequest__SQX_Risk_Periodic_Review__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Personnel",
+          "validFor": null,
+          "value": "compliancequest__SQX_Personnel__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Personnel Assessment",
+          "validFor": null,
+          "value": "compliancequest__SQX_Personnel_Assessment__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Personnel Assessment Answer",
+          "validFor": null,
+          "value": "compliancequest__SQX_Personnel_Assessment_Answer__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Personnel Assessment Attempt",
+          "validFor": null,
+          "value": "compliancequest__SQX_Personnel_Assessment_Attempt__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Personnel Document Job Function",
+          "validFor": null,
+          "value": "compliancequest__SQX_Personnel_Document_Job_Function__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Personnel Job Function",
+          "validFor": null,
+          "value": "compliancequest__SQX_Personnel_Job_Function__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Picklist Value",
+          "validFor": null,
+          "value": "compliancequest__SQX_Picklist_Value__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Product",
+          "validFor": null,
+          "value": "Product2"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Product Defect Link",
+          "validFor": null,
+          "value": "compliancequest__SQX_Product_Defect_Link__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Product History Checklist",
+          "validFor": null,
+          "value": "compliancequest__SQX_Product_History_Answer__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Product History Review",
+          "validFor": null,
+          "value": "compliancequest__SQX_Product_History_Review__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Project",
+          "validFor": null,
+          "value": "compliancequest__SQX_Project__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Project Approval",
+          "validFor": null,
+          "value": "compliancequest__SQX_Project_Approval__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Project Record Activity",
+          "validFor": null,
+          "value": "compliancequest__SQX_Project_Record_Activity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Project Team",
+          "validFor": null,
+          "value": "compliancequest__SQX_Project_Team__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Qualified Trainer",
+          "validFor": null,
+          "value": "compliancequest__SQX_Qualified_Trainer__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Question",
+          "validFor": null,
+          "value": "compliancequest__SQX_Task_Question__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Quip Document from List View",
+          "validFor": null,
+          "value": "ContentDocumentListViewMapping"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Receipt",
+          "validFor": null,
+          "value": "compliancequest__SQX_Receipt__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Regulatory Information",
+          "validFor": null,
+          "value": "compliancequest__SQX_Regulatory_Information__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Regulatory Report",
+          "validFor": null,
+          "value": "compliancequest__SQX_Regulatory_Report__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Related Complaint",
+          "validFor": null,
+          "value": "compliancequest__SQX_Cross_Reference_Complaint__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Related Document",
+          "validFor": null,
+          "value": "compliancequest__SQX_Related_Document__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Related Finding",
+          "validFor": null,
+          "value": "compliancequest__SQX_Finding_CAPA__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Related Finding",
+          "validFor": null,
+          "value": "compliancequest__SQX_Related_Finding__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Related Investigation",
+          "validFor": null,
+          "value": "compliancequest__SQX_Cross_Reference_Investigation__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Related Part",
+          "validFor": null,
+          "value": "CQ_AM_SQX_Related_Part__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Related Product",
+          "validFor": null,
+          "value": "compliancequest__SQX_Related_Product__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Rendition Log",
+          "validFor": null,
+          "value": "compliancequest__SQX_Rendition_Log__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Reporting Default",
+          "validFor": null,
+          "value": "compliancequest__SQX_Reporting_Default__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Report Submission",
+          "validFor": null,
+          "value": "compliancequest__SQX_Submission_History__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Requirement",
+          "validFor": null,
+          "value": "compliancequest__SQX_Requirement__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Response",
+          "validFor": null,
+          "value": "compliancequest__SQX_Finding_Response__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Response Inclusion",
+          "validFor": null,
+          "value": "compliancequest__SQX_Response_Inclusion__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Response Inclusion Approval",
+          "validFor": null,
+          "value": "compliancequest__SQX_Resp_Inclusion_Approval__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Result Type",
+          "validFor": null,
+          "value": "compliancequest__SQX_Result_Type__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Result Type Value",
+          "validFor": null,
+          "value": "compliancequest__SQX_Result_Type_Value__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Risk",
+          "validFor": null,
+          "value": "compliancequest__SQX_Risk__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Risk Assessment",
+          "validFor": null,
+          "value": "compliancequest__SQX_Risk_Assessment__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Risk Assessment Impact",
+          "validFor": null,
+          "value": "compliancequest__SQX_Risk_Assessment_Impact__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Risk Assessment Response",
+          "validFor": null,
+          "value": "compliancequest__SQX_Risk_Assessment_Response__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Risk Model",
+          "validFor": null,
+          "value": "compliancequest__SQX_Risk_Model__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Risk Prioritization",
+          "validFor": null,
+          "value": "compliancequest__SQX_Risk_Prioritization__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Risk Record Activity",
+          "validFor": null,
+          "value": "compliancequest__SQX_Risk_Record_Activity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Risk Reference",
+          "validFor": null,
+          "value": "compliancequest__SQX_Risk_Reference__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Risk Transfer",
+          "validFor": null,
+          "value": "compliancequest__SQX_Risk_Transfer__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Risk Treatment",
+          "validFor": null,
+          "value": "compliancequest__SQX_Risk_Treatment__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Risk Treatment Action",
+          "validFor": null,
+          "value": "compliancequest__SQX_Risk_Treatment_Action__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Risk Treatment Record Activity",
+          "validFor": null,
+          "value": "compliancequest__SQX_Risk_Treatment_Record_Activity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Root Cause",
+          "validFor": null,
+          "value": "compliancequest__SQX_Root_Cause__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Root Cause Category",
+          "validFor": null,
+          "value": "compliancequest__SQX_Root_Cause_Category__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Root Cause Code",
+          "validFor": null,
+          "value": "compliancequest__SQX_Root_Cause_Code__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Root Cause Sub-Category",
+          "validFor": null,
+          "value": "compliancequest__SQX_Root_Cause_Sub_Category__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sample Tracking",
+          "validFor": null,
+          "value": "compliancequest__SQX_Sample_Tracking__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Script Execution",
+          "validFor": null,
+          "value": "compliancequest__SQX_Script_Execution__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Script Response",
+          "validFor": null,
+          "value": "compliancequest__SQX_Script_Response__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Script Response Attribute",
+          "validFor": null,
+          "value": "compliancequest__SQX_Script_Attribute__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Service Appointment Group",
+          "validFor": null,
+          "value": "ServiceAppointmentGroup"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Site",
+          "validFor": null,
+          "value": "compliancequest__SQX_Site__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Social Post",
+          "validFor": null,
+          "value": "SocialPost"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Specification",
+          "validFor": null,
+          "value": "compliancequest__SQX_Specification__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Standard Service",
+          "validFor": null,
+          "value": "compliancequest__SQX_Standard_Service__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Supplier Deviation",
+          "validFor": null,
+          "value": "compliancequest__SQX_Supplier_Deviation__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Supplier Deviation Finding",
+          "validFor": null,
+          "value": "compliancequest__SQX_Supplier_Deviation_Finding__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Supplier Deviation NC",
+          "validFor": null,
+          "value": "compliancequest__SQX_Supplier_Deviation_NC__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Supplier Deviation Record Activity",
+          "validFor": null,
+          "value": "compliancequest__SQX_Supplier_Deviation_Record_Activity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Supplier Document",
+          "validFor": null,
+          "value": "compliancequest__SQX_Certification__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Supplier Escalation",
+          "validFor": null,
+          "value": "compliancequest__SQX_Supplier_Escalation__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Supplier Escalation Record Activity",
+          "validFor": null,
+          "value": "compliancequest__SQX_Supplier_Escalation_Record_Activity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Supplier Escalation Step",
+          "validFor": null,
+          "value": "compliancequest__SQX_Supplier_Escalation_Step2__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Supplier Escalation Step",
+          "validFor": null,
+          "value": "compliancequest__SQX_Supplier_Escalation_Step__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Supplier Interaction",
+          "validFor": null,
+          "value": "compliancequest__SQX_Supplier_Interaction__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Supplier Interaction Record Activity",
+          "validFor": null,
+          "value": "compliancequest__SQX_Supplier_Interaction_Record_Activity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Supplier Interaction Step",
+          "validFor": null,
+          "value": "compliancequest__SQX_Supplier_Interaction_Step2__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Supplier Interaction Step",
+          "validFor": null,
+          "value": "compliancequest__SQX_Supplier_Interaction_Step__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Supplier Introduction",
+          "validFor": null,
+          "value": "compliancequest__SQX_New_Supplier_Introduction__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Supplier Introduction Record Activity",
+          "validFor": null,
+          "value": "compliancequest__SQX_NSI_Record_Activity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Supplier Part",
+          "validFor": null,
+          "value": "compliancequest__SQX_Supplier_Part__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Supplier Service",
+          "validFor": null,
+          "value": "compliancequest__SQX_Supplier_Service__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Suspect Product",
+          "validFor": null,
+          "value": "compliancequest__SQX_Medwatch_Suspect_Product__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Suspect Product Null Value",
+          "validFor": null,
+          "value": "compliancequest__SQX_Medwatch_Suspect_Product_Null_Value__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Task",
+          "validFor": null,
+          "value": "Task"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Temp Store",
+          "validFor": null,
+          "value": "compliancequest__SQX_TempStore__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Temp Store Attachment",
+          "validFor": null,
+          "value": "compliancequest__SQX_Temp_Store_Attachment__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Training Certificate",
+          "validFor": null,
+          "value": "compliancequest__SQX_Training_Certificate__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Training Fulfilled Requirement",
+          "validFor": null,
+          "value": "compliancequest__SQX_Training_Fulfilled_Requirement__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Training Session",
+          "validFor": null,
+          "value": "compliancequest__SQX_Training_Session__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Training Session Record Activity",
+          "validFor": null,
+          "value": "compliancequest__SQX_Training_Session_Record_Activity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Training Session Roster",
+          "validFor": null,
+          "value": "compliancequest__SQX_Training_Session_Roster__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "User",
+          "validFor": null,
+          "value": "User"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "User Job Function",
+          "validFor": null,
+          "value": "compliancequest__SQX_User_Job_Function__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Web Cart Document",
+          "validFor": null,
+          "value": "WebCartDocument"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Why",
+          "validFor": null,
+          "value": "compliancequest__SQX_Why__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Work Order",
+          "validFor": null,
+          "value": "WorkOrder"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Work Order Line Item",
+          "validFor": null,
+          "value": "WorkOrderLineItem"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Work Procedure",
+          "validFor": null,
+          "value": "WorkProcedure"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Work Procedure Step",
+          "validFor": null,
+          "value": "WorkProcedureStep"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    }
+  ],
+  "label": "Macro",
+  "childRelationships": [
+    {
+      "cascadeDelete": false,
+      "childSObject": "FlowRecordRelation",
+      "deprecatedAndHidden": false,
+      "field": "RelatedRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "MacroHistory",
+      "deprecatedAndHidden": false,
+      "field": "MacroId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Histories",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "MacroInstruction",
+      "deprecatedAndHidden": false,
+      "field": "MacroId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "MacroShare",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Shares",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "MacroUsage",
+      "deprecatedAndHidden": false,
+      "field": "MacroId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    }
+  ],
+  "custom": false,
+  "name": "Macro",
+  "queryable": true
+}

@@ -1,0 +1,1336 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Record ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Owner ID",
+      "name": "OwnerId",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "Group",
+        "User"
+      ],
+      "relationshipName": "Owner",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Deleted",
+      "name": "IsDeleted",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Record Number",
+      "name": "Name",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Created Date",
+      "name": "CreatedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Created By ID",
+      "name": "CreatedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "CreatedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Modified Date",
+      "name": "LastModifiedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Last Modified By ID",
+      "name": "LastModifiedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "LastModifiedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "System Modstamp",
+      "name": "SystemModstamp",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "C10. Event Reappear After Reintroduction",
+      "name": "compliancequest__C10_Event_Reappeared__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Approval Number",
+      "name": "compliancequest__C1_Approval_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Drug Type",
+      "name": "compliancequest__C1_Drug_Type__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "If IND, Give Protocol #",
+      "name": "compliancequest__C1_If_IND_Give_Protocol_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Lot #",
+      "name": "compliancequest__C1_Lot_Number__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manufacturer/Compounder",
+      "name": "compliancequest__C1_Manufacturer_or_Compounder__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "NDC # or Unique ID",
+      "name": "compliancequest__C1_NDC_Number_Unique_Id__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Name and Strength",
+      "name": "compliancequest__C1_Name_and_Strength__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "C2. Concomitant Medical Products",
+      "name": "compliancequest__C2_Concomitant_Medical_Products__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Therapy Date",
+      "name": "compliancequest__C2_Therapy_Date__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Dose Unit",
+      "name": "compliancequest__C3_Dose_Unit__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Dose",
+      "name": "compliancequest__C3_Dose__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Frequency Unit",
+      "name": "compliancequest__C3_Frequency_Unit__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Frequency",
+      "name": "compliancequest__C3_Frequency__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Number of separate dosages",
+      "name": "compliancequest__C3_Number_of_separate_dosages__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Route Used",
+      "name": "compliancequest__C3_Route_Used__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "C4. Therapy Dates - Start Date",
+      "name": "compliancequest__C4_Therapy_Start_Date__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Therapy Dates - Stop Date",
+      "name": "compliancequest__C4_Therapy_Stop_Date__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "C5. Diagnosis for Use",
+      "name": "compliancequest__C5_Diagnosis_For_Use__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "C6. Is the Product Compounded?",
+      "name": "compliancequest__C6_Is_the_Product_Compounded__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "C7. Is the Product Over-the-Counter?",
+      "name": "compliancequest__C7_Is_the_Product_Over_the_Counter__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "C8. Expiration Date",
+      "name": "compliancequest__C8_Expiration_Date__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "C9. Event Abated After Use Stopped?",
+      "name": "compliancequest__C9_Event_Abated__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NA",
+          "validFor": null,
+          "value": "NA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NI",
+          "validFor": null,
+          "value": "NI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ASKU",
+          "validFor": null,
+          "value": "ASKU"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Suspect Product",
+      "name": "compliancequest__SQX_Medwatch_Suspect_Product__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "compliancequest__SQX_Medwatch_Suspect_Product__c"
+      ],
+      "relationshipName": "compliancequest__SQX_Medwatch_Suspect_Product__r",
+      "sortable": true,
+      "type": "reference"
+    }
+  ],
+  "label": "Suspect Product Null Value",
+  "childRelationships": [
+    {
+      "cascadeDelete": true,
+      "childSObject": "AttachedContentDocument",
+      "deprecatedAndHidden": false,
+      "field": "LinkedEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "AttachedContentDocuments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "AttachedContentNote",
+      "deprecatedAndHidden": false,
+      "field": "LinkedEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "AttachedContentNotes",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "Attachment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Attachments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "CollaborationGroupRecord",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "RecordAssociatedGroups",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "CombinedAttachment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "CombinedAttachments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ContactRequest",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ContactRequests",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ContentDistribution",
+      "deprecatedAndHidden": false,
+      "field": "RelatedRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ContentDocumentLink",
+      "deprecatedAndHidden": false,
+      "field": "LinkedEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ContentDocumentLinks",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ContentVersion",
+      "deprecatedAndHidden": false,
+      "field": "FirstPublishLocationId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "DuplicateRecordItem",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "DuplicateRecordItems",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "EntitySubscription",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "FeedSubscriptionsForEntity",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "EventChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "EventRelationChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "RelationId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FeedComment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "FeedItem",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FlowRecordRelation",
+      "deprecatedAndHidden": false,
+      "field": "RelatedRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "Note",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Notes",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "NoteAndAttachment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "NotesAndAttachments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ProcessInstance",
+      "deprecatedAndHidden": false,
+      "field": "TargetObjectId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ProcessInstances",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ProcessInstanceHistory",
+      "deprecatedAndHidden": false,
+      "field": "TargetObjectId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ProcessSteps",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "RecordAction",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "RecordActions",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "RecordActionHistory",
+      "deprecatedAndHidden": false,
+      "field": "ParentRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "RecordActionHistories",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "TaskChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "TopicAssignment",
+      "deprecatedAndHidden": false,
+      "field": "EntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "TopicAssignments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "compliancequest__SQX_Medwatch_Suspect_Product__c",
+      "deprecatedAndHidden": false,
+      "field": "compliancequest__SQX_Suspect_Product_Null_Value__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "compliancequest__SQX_Suspect_Product_Null_Values__r",
+      "restrictedDelete": false
+    }
+  ],
+  "custom": true,
+  "name": "compliancequest__SQX_Medwatch_Suspect_Product_Null_Value__c",
+  "queryable": true
+}

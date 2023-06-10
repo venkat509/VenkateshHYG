@@ -1,0 +1,1709 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Record ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Deleted",
+      "name": "IsDeleted",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Suspect Product Name",
+      "name": "Name",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Created Date",
+      "name": "CreatedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Created By ID",
+      "name": "CreatedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "CreatedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Modified Date",
+      "name": "LastModifiedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Last Modified By ID",
+      "name": "LastModifiedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "LastModifiedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "System Modstamp",
+      "name": "SystemModstamp",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Medwatch",
+      "name": "compliancequest__SQX_Medwatch__c",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "compliancequest__SQX_Medwatch__c"
+      ],
+      "relationshipName": "compliancequest__SQX_Medwatch__r",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Activity Code",
+      "name": "compliancequest__Activity_Code__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Are there suspect products",
+      "name": "compliancequest__Are_there_suspect_products__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Yes",
+          "validFor": null,
+          "value": "Yes"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "No",
+          "validFor": null,
+          "value": "No"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "C9. Event Reappear After Reintroduction",
+      "name": "compliancequest__C10_Event_Reappeared__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Yes",
+          "validFor": null,
+          "value": "true"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "No",
+          "validFor": null,
+          "value": "false"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Doesn't Apply",
+          "validFor": null,
+          "value": "Doesn't Apply"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Approval Number",
+      "name": "compliancequest__C1_Approval_Number__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Drug Type",
+      "name": "compliancequest__C1_Drug_Type__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NDA",
+          "validFor": null,
+          "value": "NDA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ANDA",
+          "validFor": null,
+          "value": "ANDA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "BLA",
+          "validFor": null,
+          "value": "BLA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "IND",
+          "validFor": null,
+          "value": "IND"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "If IND, Give Protocol #",
+      "name": "compliancequest__C1_If_IND_Give_Protocol_Number__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Lot #",
+      "name": "compliancequest__C1_Lot_Number__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Manufacturer/Compounder",
+      "name": "compliancequest__C1_Manufacturer_or_Compounder__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "NDC # or Unique ID",
+      "name": "compliancequest__C1_NDC_Number_Unique_Id__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "C1. Name and Strength",
+      "name": "compliancequest__C1_Name_and_Strength__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "C2. Concomitant Medical Products",
+      "name": "compliancequest__C2_Concomitant_Medical_Products__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Dose Unit",
+      "name": "compliancequest__C3_Dose_Unit__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "kg kilogram(s)",
+          "validFor": null,
+          "value": "001"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "G gram(s)",
+          "validFor": null,
+          "value": "002"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mg milligram(s)",
+          "validFor": null,
+          "value": "003"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "μg microgram(s)",
+          "validFor": null,
+          "value": "004"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ng nanogram(s)",
+          "validFor": null,
+          "value": "005"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "pg picogram(s)",
+          "validFor": null,
+          "value": "006"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "mg/kg milligram(s)/kilogram",
+          "validFor": null,
+          "value": "007"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "μg/kg microgram(s)/kilogram",
+          "validFor": null,
+          "value": "008"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "mg/m2 milligram(s)/sq. meter",
+          "validFor": null,
+          "value": "009"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "μg/ m2 microgram(s)/ sq. meter",
+          "validFor": null,
+          "value": "010"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "l litre(s)",
+          "validFor": null,
+          "value": "011"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ml millilitre(s)",
+          "validFor": null,
+          "value": "012"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "μl microlitre(s)",
+          "validFor": null,
+          "value": "013"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Bq becquerel(s)",
+          "validFor": null,
+          "value": "014"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "GBq gigabecquerel(s)",
+          "validFor": null,
+          "value": "015"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "MBq megabecquerel(s)",
+          "validFor": null,
+          "value": "016"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kbq kilobecquerel(s)",
+          "validFor": null,
+          "value": "017"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Ci curie(s)",
+          "validFor": null,
+          "value": "018"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "MCi millicurie(s)",
+          "validFor": null,
+          "value": "019"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "μCi microcurie(s)",
+          "validFor": null,
+          "value": "020"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NCi nanocurie(s)",
+          "validFor": null,
+          "value": "021"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mol mole(s)",
+          "validFor": null,
+          "value": "022"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mmol millimole(s)",
+          "validFor": null,
+          "value": "023"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "μmol micromole(s)",
+          "validFor": null,
+          "value": "024"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Iu international unit(s)",
+          "validFor": null,
+          "value": "025"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kiu iu(1000s)",
+          "validFor": null,
+          "value": "026"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Miu iu(1,000,000s)",
+          "validFor": null,
+          "value": "027"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "iu/kg iu/kilogram",
+          "validFor": null,
+          "value": "028"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Meq milliequivalent(s)",
+          "validFor": null,
+          "value": "029"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "% percent",
+          "validFor": null,
+          "value": "030"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Gtt drop(s)",
+          "validFor": null,
+          "value": "031"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "DF dosage form",
+          "validFor": null,
+          "value": "032"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "C3. Dose",
+      "name": "compliancequest__C3_Dose__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "double"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Frequency Unit",
+      "name": "compliancequest__C3_Frequency_Unit__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Seconds",
+          "validFor": null,
+          "value": "807"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Minutes",
+          "validFor": null,
+          "value": "806"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Hours",
+          "validFor": null,
+          "value": "805"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Days",
+          "validFor": null,
+          "value": "804"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Weeks",
+          "validFor": null,
+          "value": "803"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Months",
+          "validFor": null,
+          "value": "802"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Years",
+          "validFor": null,
+          "value": "801"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Frequency",
+      "name": "compliancequest__C3_Frequency__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "double"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Number of separate dosages",
+      "name": "compliancequest__C3_Number_of_separate_dosages__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "double"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Route Used",
+      "name": "compliancequest__C3_Route_Used__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Auricular (otic)",
+          "validFor": null,
+          "value": "001"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Buccal",
+          "validFor": null,
+          "value": "002"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Cutaneous",
+          "validFor": null,
+          "value": "003"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Dental",
+          "validFor": null,
+          "value": "004"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Endocervical",
+          "validFor": null,
+          "value": "005"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Endosinusial",
+          "validFor": null,
+          "value": "006"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Endotracheal",
+          "validFor": null,
+          "value": "007"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Epidural",
+          "validFor": null,
+          "value": "008"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Extra-amniotic",
+          "validFor": null,
+          "value": "009"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Hemodialysis",
+          "validFor": null,
+          "value": "010"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intra corpus cavernosum",
+          "validFor": null,
+          "value": "011"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intra-amniotic",
+          "validFor": null,
+          "value": "012"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intra-arterial",
+          "validFor": null,
+          "value": "013"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intra-articular",
+          "validFor": null,
+          "value": "014"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intra-uterine",
+          "validFor": null,
+          "value": "015"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intracardiac",
+          "validFor": null,
+          "value": "016"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intracavernous",
+          "validFor": null,
+          "value": "017"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intracerebral",
+          "validFor": null,
+          "value": "018"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intracervical",
+          "validFor": null,
+          "value": "019"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intracisternal",
+          "validFor": null,
+          "value": "020"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intracorneal",
+          "validFor": null,
+          "value": "021"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intracoronary",
+          "validFor": null,
+          "value": "022"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intradermal",
+          "validFor": null,
+          "value": "023"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intradiscal (intraspinal)",
+          "validFor": null,
+          "value": "024"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intrahepatic",
+          "validFor": null,
+          "value": "025"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intralesional",
+          "validFor": null,
+          "value": "026"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intralymphatic",
+          "validFor": null,
+          "value": "027"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intramedullar (bone marrow)",
+          "validFor": null,
+          "value": "028"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intrameningeal",
+          "validFor": null,
+          "value": "029"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intramuscular",
+          "validFor": null,
+          "value": "030"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intraocular",
+          "validFor": null,
+          "value": "031"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intrapericardial",
+          "validFor": null,
+          "value": "032"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intraperitoneal",
+          "validFor": null,
+          "value": "033"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intrapleural",
+          "validFor": null,
+          "value": "034"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intrasynovial",
+          "validFor": null,
+          "value": "035"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intratumor",
+          "validFor": null,
+          "value": "036"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intrathecal",
+          "validFor": null,
+          "value": "037"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intrathoracic",
+          "validFor": null,
+          "value": "038"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intratracheal",
+          "validFor": null,
+          "value": "039"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intravenous bolus",
+          "validFor": null,
+          "value": "040"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intravenous drip",
+          "validFor": null,
+          "value": "041"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intravenous (not otherwise specified)",
+          "validFor": null,
+          "value": "042"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intravesical",
+          "validFor": null,
+          "value": "043"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Iontophoresis",
+          "validFor": null,
+          "value": "044"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Nasal",
+          "validFor": null,
+          "value": "045"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Occlusive dressing technique",
+          "validFor": null,
+          "value": "046"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Ophthalmic",
+          "validFor": null,
+          "value": "047"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Oral",
+          "validFor": null,
+          "value": "048"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Oropharyngeal",
+          "validFor": null,
+          "value": "049"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Other",
+          "validFor": null,
+          "value": "050"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Parenteral",
+          "validFor": null,
+          "value": "051"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Periarticular",
+          "validFor": null,
+          "value": "052"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Perineural",
+          "validFor": null,
+          "value": "053"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Rectal",
+          "validFor": null,
+          "value": "054"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Respiratory (inhalation)",
+          "validFor": null,
+          "value": "055"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Retrobulbar",
+          "validFor": null,
+          "value": "056"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sunconjunctival",
+          "validFor": null,
+          "value": "057"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subcutaneous",
+          "validFor": null,
+          "value": "058"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subdermal",
+          "validFor": null,
+          "value": "059"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sublingual",
+          "validFor": null,
+          "value": "060"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Topical",
+          "validFor": null,
+          "value": "061"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Transdermal",
+          "validFor": null,
+          "value": "062"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Transmammary",
+          "validFor": null,
+          "value": "063"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Transplacental",
+          "validFor": null,
+          "value": "064"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Unknown",
+          "validFor": null,
+          "value": "065"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Urethral",
+          "validFor": null,
+          "value": "066"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Vaginal",
+          "validFor": null,
+          "value": "067"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "C4.Treatment/Therapy Dates - Start Date",
+      "name": "compliancequest__C4_Therapy_Start_Date__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "date"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Treatment/Therapy Dates - Stop Date",
+      "name": "compliancequest__C4_Therapy_Stop_Date__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "date"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "C5. Diagnosis for Use",
+      "name": "compliancequest__C5_Diagnosis_For_Use__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "C6. Is the Product Compounded?",
+      "name": "compliancequest__C6_Is_the_Product_Compounded__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Yes",
+          "validFor": null,
+          "value": "true"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "No",
+          "validFor": null,
+          "value": "false"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "C7. Is the Product Over-the-Counter?",
+      "name": "compliancequest__C7_Is_the_Product_Over_the_Counter__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Yes",
+          "validFor": null,
+          "value": "true"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "No",
+          "validFor": null,
+          "value": "false"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "C7. Expiration Date",
+      "name": "compliancequest__C8_Expiration_Date__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "date"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "C8. Event Abated After Use Stopped?",
+      "name": "compliancequest__C9_Event_Abated__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Yes",
+          "validFor": null,
+          "value": "true"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "No",
+          "validFor": null,
+          "value": "false"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Doesn't Apply",
+          "validFor": null,
+          "value": "Doesn't Apply"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Suspect Product Null Value",
+      "name": "compliancequest__SQX_Suspect_Product_Null_Value__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "compliancequest__SQX_Medwatch_Suspect_Product_Null_Value__c"
+      ],
+      "relationshipName": "compliancequest__SQX_Suspect_Product_Null_Value__r",
+      "sortable": true,
+      "type": "reference"
+    }
+  ],
+  "label": "Suspect Product",
+  "childRelationships": [
+    {
+      "cascadeDelete": true,
+      "childSObject": "AttachedContentDocument",
+      "deprecatedAndHidden": false,
+      "field": "LinkedEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "AttachedContentDocuments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "AttachedContentNote",
+      "deprecatedAndHidden": false,
+      "field": "LinkedEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "AttachedContentNotes",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "Attachment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Attachments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "CollaborationGroupRecord",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "RecordAssociatedGroups",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "CombinedAttachment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "CombinedAttachments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ContactRequest",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ContactRequests",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ContentDistribution",
+      "deprecatedAndHidden": false,
+      "field": "RelatedRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ContentDocumentLink",
+      "deprecatedAndHidden": false,
+      "field": "LinkedEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ContentDocumentLinks",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ContentVersion",
+      "deprecatedAndHidden": false,
+      "field": "FirstPublishLocationId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "DuplicateRecordItem",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "DuplicateRecordItems",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "EntitySubscription",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "FeedSubscriptionsForEntity",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "EventChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "EventRelationChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "RelationId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FeedComment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "FeedItem",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FlowRecordRelation",
+      "deprecatedAndHidden": false,
+      "field": "RelatedRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "Note",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Notes",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "NoteAndAttachment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "NotesAndAttachments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ProcessInstance",
+      "deprecatedAndHidden": false,
+      "field": "TargetObjectId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ProcessInstances",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ProcessInstanceHistory",
+      "deprecatedAndHidden": false,
+      "field": "TargetObjectId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ProcessSteps",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "RecordAction",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "RecordActions",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "RecordActionHistory",
+      "deprecatedAndHidden": false,
+      "field": "ParentRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "RecordActionHistories",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "TaskChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "TopicAssignment",
+      "deprecatedAndHidden": false,
+      "field": "EntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "TopicAssignments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "compliancequest__SQX_Medwatch_Suspect_Product_Null_Value__c",
+      "deprecatedAndHidden": false,
+      "field": "compliancequest__SQX_Medwatch_Suspect_Product__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "compliancequest__SQX_Medwatch_Suspect_Products__r",
+      "restrictedDelete": false
+    }
+  ],
+  "custom": true,
+  "name": "compliancequest__SQX_Medwatch_Suspect_Product__c",
+  "queryable": true
+}

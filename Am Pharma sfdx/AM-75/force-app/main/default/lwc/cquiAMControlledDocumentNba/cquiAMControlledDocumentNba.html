@@ -1,0 +1,63 @@
+<template>
+ 
+<div class="slds-grid slds-grid--align-center">
+    <div if:true={allDone} class="slds-col">
+        <div class="slds-grid slds-grid--horizontal">
+            <div class="slds-col">
+                <lightning-button-group class="slds-button-group slds-align_absolute-center">
+                    <ul class="slds-button-group-row">
+                            <li class="slds-button-group-item">
+                            
+                                
+                                
+                                <template if:true={visible.Submit_For_Approval}>
+                                    
+                                    
+                                        <lightning-button variant="base" label={CQUIAM_SUBMIT_FOR_APPROVAL} name="compliancequest__Submit_For_Approval" 
+                                                    onclick={invokeAction} class="slds-button slds-button_neutral"></lightning-button>
+                                    
+                                </template> 
+                                
+                            
+                                
+                                
+                                <template if:true={visible.cqui_Release}>
+                                    
+                                    
+                                        <lightning-button variant="base" label={CQUIAM_RELEASE} name="cqui_Release" 
+                                                    onclick={invokeAction} class="slds-button slds-button_neutral"></lightning-button>
+                                    
+                                </template> 
+                                
+                            
+                                
+                                
+                                <template if:true={visible.cqui_Review}>
+                                    
+                                    
+                                        <lightning-button variant="base" label={CQUIAM_REVIEW} name="cqui_Review" 
+                                                    onclick={invokeAction} class="slds-button slds-button_neutral"></lightning-button>
+                                    
+                                </template> 
+                                
+                            
+                                
+                                
+                                <template if:true={visible.Submit_For_Obsolescence_Approval}>
+                                    
+                                    
+                                        <lightning-button variant="base" label={CQUIAM_SUBMIT_FOR_OBSOLESCENCE_APPROVAL} name="compliancequest__Submit_For_Obsolescence_Approval" 
+                                                    onclick={invokeAction} class="slds-button slds-button_neutral"></lightning-button>
+                                    
+                                </template> 
+                                
+                            
+                        </li>
+                    </ul>
+                </lightning-button-group>
+                
+            </div>
+        </div>
+    </div>
+</div>
+</template>

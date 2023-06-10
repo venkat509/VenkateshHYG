@@ -1,0 +1,2214 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Record ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Owner ID",
+      "name": "OwnerId",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "Group",
+        "User"
+      ],
+      "relationshipName": "Owner",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Deleted",
+      "name": "IsDeleted",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Record Number",
+      "name": "Name",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Created Date",
+      "name": "CreatedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Created By ID",
+      "name": "CreatedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "CreatedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Modified Date",
+      "name": "LastModifiedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Last Modified By ID",
+      "name": "LastModifiedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "LastModifiedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "System Modstamp",
+      "name": "SystemModstamp",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Last Activity Date",
+      "name": "LastActivityDate",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "date"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Viewed Date",
+      "name": "LastViewedDate",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Referenced Date",
+      "name": "LastReferencedDate",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": true,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Active",
+      "name": "compliancequest__Active__c",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Birthdate",
+      "name": "compliancequest__Birthdate__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "date"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Date of Hire",
+      "name": "compliancequest__Date_of_Hire__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "date"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Description",
+      "name": "compliancequest__Description__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Email Address",
+      "name": "compliancequest__Email_Address__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "email"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Employment Type",
+      "name": "compliancequest__Employment_Type__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Full Time",
+          "validFor": null,
+          "value": "Full Time"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Part Time",
+          "validFor": null,
+          "value": "Part Time"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Contractor",
+          "validFor": null,
+          "value": "Contractor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Temporary",
+          "validFor": null,
+          "value": "Temporary"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Full Name",
+      "name": "compliancequest__Full_Name__c",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Gender",
+      "name": "compliancequest__Gender__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Male",
+          "validFor": null,
+          "value": "Male"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Female",
+          "validFor": null,
+          "value": "Female"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Identification Number",
+      "name": "compliancequest__Identification_Number__c",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Job Title",
+      "name": "compliancequest__Job_Title__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Aircraft Mechanic",
+          "validFor": null,
+          "value": "Aircraft Mechanic"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Assembler",
+          "validFor": null,
+          "value": "Assembler"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Assembly Supervisor",
+          "validFor": null,
+          "value": "Assembly Supervisor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Assistant Plant Manager",
+          "validFor": null,
+          "value": "Assistant Plant Manager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Automation Engineer/Specialist",
+          "validFor": null,
+          "value": "Automation Engineer/Specialist"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Automation Technician",
+          "validFor": null,
+          "value": "Automation Technician"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Boiler Operator",
+          "validFor": null,
+          "value": "Boiler Operator"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Boilermaker",
+          "validFor": null,
+          "value": "Boilermaker"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Bookbinder and Bindery Worker",
+          "validFor": null,
+          "value": "Bookbinder and Bindery Worker"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Brazer",
+          "validFor": null,
+          "value": "Brazer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Chemical Plant Operator",
+          "validFor": null,
+          "value": "Chemical Plant Operator"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Chief Executive Officer",
+          "validFor": null,
+          "value": "Chief Executive Officer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Chief Manufacturing Executive",
+          "validFor": null,
+          "value": "Chief Manufacturing Executive"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Chief Quality Control Executive",
+          "validFor": null,
+          "value": "Chief Quality Control Executive"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Civil Engineering Supervisor",
+          "validFor": null,
+          "value": "Civil Engineering Supervisor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CNC Machinist",
+          "validFor": null,
+          "value": "CNC Machinist"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CNC Operator",
+          "validFor": null,
+          "value": "CNC Operator"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Coating, Painting, and Spraying Machine Operator",
+          "validFor": null,
+          "value": "Coating, Painting, and Spraying Machine Operator"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Computer Control Programmer/Operator",
+          "validFor": null,
+          "value": "Computer Control Programmer/Operator"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Configuration Analyst",
+          "validFor": null,
+          "value": "Configuration Analyst"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Controller",
+          "validFor": null,
+          "value": "Controller"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Controls Engineer",
+          "validFor": null,
+          "value": "Controls Engineer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Customer Service Representative",
+          "validFor": null,
+          "value": "Customer Service Representative"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Cutter",
+          "validFor": null,
+          "value": "Cutter"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Dairy Processing Equipment Operator",
+          "validFor": null,
+          "value": "Dairy Processing Equipment Operator"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Design Engineer",
+          "validFor": null,
+          "value": "Design Engineer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Designer",
+          "validFor": null,
+          "value": "Designer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Development Engineer",
+          "validFor": null,
+          "value": "Development Engineer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Director of Quality Management",
+          "validFor": null,
+          "value": "Director of Quality Management"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Distribution Manager",
+          "validFor": null,
+          "value": "Distribution Manager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Division Manager",
+          "validFor": null,
+          "value": "Division Manager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Electrician",
+          "validFor": null,
+          "value": "Electrician"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Electromechanical Technician",
+          "validFor": null,
+          "value": "Electromechanical Technician"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Electronic Assembler",
+          "validFor": null,
+          "value": "Electronic Assembler"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Electronic Technician",
+          "validFor": null,
+          "value": "Electronic Technician"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Engineer",
+          "validFor": null,
+          "value": "Engineer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Environmental Sustainability Manager",
+          "validFor": null,
+          "value": "Environmental Sustainability Manager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Equipment Engineer",
+          "validFor": null,
+          "value": "Equipment Engineer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Equipment Technician",
+          "validFor": null,
+          "value": "Equipment Technician"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Estimating Manager",
+          "validFor": null,
+          "value": "Estimating Manager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Expediter",
+          "validFor": null,
+          "value": "Expediter"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Fabricator",
+          "validFor": null,
+          "value": "Fabricator"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Facilities Manager",
+          "validFor": null,
+          "value": "Facilities Manager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Fiberglass Laminator/Fabricator",
+          "validFor": null,
+          "value": "Fiberglass Laminator/Fabricator"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Field Service Technician",
+          "validFor": null,
+          "value": "Field Service Technician"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Floor Assembler",
+          "validFor": null,
+          "value": "Floor Assembler"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Floor Assembly Supervisor",
+          "validFor": null,
+          "value": "Floor Assembly Supervisor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Food Technologist",
+          "validFor": null,
+          "value": "Food Technologist"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "General Laborer",
+          "validFor": null,
+          "value": "General Laborer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "General Manager",
+          "validFor": null,
+          "value": "General Manager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Health and Safety Manager",
+          "validFor": null,
+          "value": "Health and Safety Manager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Industrial Engineer",
+          "validFor": null,
+          "value": "Industrial Engineer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Industrial Engineering Technician",
+          "validFor": null,
+          "value": "Industrial Engineering Technician"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Inspector",
+          "validFor": null,
+          "value": "Inspector"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Instrument & Automation Technician",
+          "validFor": null,
+          "value": "Instrument & Automation Technician"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Instrument Specialist/Technician",
+          "validFor": null,
+          "value": "Instrument Specialist/Technician"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Instrumentation & Controls Technician",
+          "validFor": null,
+          "value": "Instrumentation & Controls Technician"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Instrumentation & Process Controls Technician (I & P)",
+          "validFor": null,
+          "value": "Instrumentation & Process Controls Technician (I & P)"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Machine Operator",
+          "validFor": null,
+          "value": "Machine Operator"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Machine Shop Maintenance Supervisor",
+          "validFor": null,
+          "value": "Machine Shop Maintenance Supervisor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Machine Shop Production Supervisor",
+          "validFor": null,
+          "value": "Machine Shop Production Supervisor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Machine Tool Cutting Operator/Tender",
+          "validFor": null,
+          "value": "Machine Tool Cutting Operator/Tender"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Machinist",
+          "validFor": null,
+          "value": "Machinist"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Manager or Supervisor",
+          "validFor": null,
+          "value": "Manager or Supervisor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Manufacturing Engineer",
+          "validFor": null,
+          "value": "Manufacturing Engineer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Manufacturing Process Engineer",
+          "validFor": null,
+          "value": "Manufacturing Process Engineer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Manufacturing Production Manager",
+          "validFor": null,
+          "value": "Manufacturing Production Manager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Manufacturing Technician",
+          "validFor": null,
+          "value": "Manufacturing Technician"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Master Scheduler",
+          "validFor": null,
+          "value": "Master Scheduler"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Material Handler",
+          "validFor": null,
+          "value": "Material Handler"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Materials Management Supervisor",
+          "validFor": null,
+          "value": "Materials Management Supervisor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Materials Manager",
+          "validFor": null,
+          "value": "Materials Manager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Materials Planner",
+          "validFor": null,
+          "value": "Materials Planner"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mechanical Designer",
+          "validFor": null,
+          "value": "Mechanical Designer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mechanical Engineer",
+          "validFor": null,
+          "value": "Mechanical Engineer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mechanical Technician",
+          "validFor": null,
+          "value": "Mechanical Technician"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Metal Worker",
+          "validFor": null,
+          "value": "Metal Worker"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Millwright",
+          "validFor": null,
+          "value": "Millwright"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Operations Clerk",
+          "validFor": null,
+          "value": "Operations Clerk"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Operations Manager",
+          "validFor": null,
+          "value": "Operations Manager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Operator",
+          "validFor": null,
+          "value": "Operator"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Packaging Engineer",
+          "validFor": null,
+          "value": "Packaging Engineer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Painting and Coating Worker",
+          "validFor": null,
+          "value": "Painting and Coating Worker"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Photographic Processor",
+          "validFor": null,
+          "value": "Photographic Processor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Plant Accountant",
+          "validFor": null,
+          "value": "Plant Accountant"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Plant Human Resources Manager",
+          "validFor": null,
+          "value": "Plant Human Resources Manager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Plant Manager",
+          "validFor": null,
+          "value": "Plant Manager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Plant Operator",
+          "validFor": null,
+          "value": "Plant Operator"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Plastic Machine Worker",
+          "validFor": null,
+          "value": "Plastic Machine Worker"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Power Plant Dispatcher",
+          "validFor": null,
+          "value": "Power Plant Dispatcher"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Power Plant Distributor",
+          "validFor": null,
+          "value": "Power Plant Distributor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Power Plant Operator",
+          "validFor": null,
+          "value": "Power Plant Operator"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Powerhouse Supervisor",
+          "validFor": null,
+          "value": "Powerhouse Supervisor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Precision Assembler",
+          "validFor": null,
+          "value": "Precision Assembler"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Printing Machine Operator",
+          "validFor": null,
+          "value": "Printing Machine Operator"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Process Control Technician",
+          "validFor": null,
+          "value": "Process Control Technician"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Process Engineer",
+          "validFor": null,
+          "value": "Process Engineer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Process Operator",
+          "validFor": null,
+          "value": "Process Operator"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Process/Product Design Engineer",
+          "validFor": null,
+          "value": "Process/Product Design Engineer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Processing Equipment Operations Supervisor",
+          "validFor": null,
+          "value": "Processing Equipment Operations Supervisor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Processing Worker",
+          "validFor": null,
+          "value": "Processing Worker"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Product Development Engineering Manager",
+          "validFor": null,
+          "value": "Product Development Engineering Manager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Product Manager",
+          "validFor": null,
+          "value": "Product Manager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Product Marketing Analyst",
+          "validFor": null,
+          "value": "Product Marketing Analyst"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Production Control Clerk",
+          "validFor": null,
+          "value": "Production Control Clerk"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Production Control Manager",
+          "validFor": null,
+          "value": "Production Control Manager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Production Engineering Manager",
+          "validFor": null,
+          "value": "Production Engineering Manager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Production Foreman",
+          "validFor": null,
+          "value": "Production Foreman"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Production Manager",
+          "validFor": null,
+          "value": "Production Manager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Production Painter",
+          "validFor": null,
+          "value": "Production Painter"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Production Planner/Scheduler",
+          "validFor": null,
+          "value": "Production Planner/Scheduler"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Production Supervisor",
+          "validFor": null,
+          "value": "Production Supervisor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Production Technician",
+          "validFor": null,
+          "value": "Production Technician"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Production Worker",
+          "validFor": null,
+          "value": "Production Worker"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Programmable Logic Controllers Technician",
+          "validFor": null,
+          "value": "Programmable Logic Controllers Technician"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Project Engineer",
+          "validFor": null,
+          "value": "Project Engineer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Project Manager",
+          "validFor": null,
+          "value": "Project Manager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Purchasing Agent/Buyer",
+          "validFor": null,
+          "value": "Purchasing Agent/Buyer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Quality Assurance Engineer",
+          "validFor": null,
+          "value": "Quality Assurance Engineer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Quality Assurance Manager",
+          "validFor": null,
+          "value": "Quality Assurance Manager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Quality Control Analyst",
+          "validFor": null,
+          "value": "Quality Control Analyst"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Quality Control Inspector",
+          "validFor": null,
+          "value": "Quality Control Inspector"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Quality Engineer",
+          "validFor": null,
+          "value": "Quality Engineer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Quality Inspector",
+          "validFor": null,
+          "value": "Quality Inspector"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Quality Manager",
+          "validFor": null,
+          "value": "Quality Manager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Reliability Engineer",
+          "validFor": null,
+          "value": "Reliability Engineer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Safety Manager",
+          "validFor": null,
+          "value": "Safety Manager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Safety Manager/Coordinator",
+          "validFor": null,
+          "value": "Safety Manager/Coordinator"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Safety Technician",
+          "validFor": null,
+          "value": "Safety Technician"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Semiconductor Processor",
+          "validFor": null,
+          "value": "Semiconductor Processor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Senior Buyer",
+          "validFor": null,
+          "value": "Senior Buyer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Senior Design Engineer",
+          "validFor": null,
+          "value": "Senior Design Engineer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Senior Project Engineer",
+          "validFor": null,
+          "value": "Senior Project Engineer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Shift Supervisor",
+          "validFor": null,
+          "value": "Shift Supervisor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Shipping and Receiving Manager",
+          "validFor": null,
+          "value": "Shipping and Receiving Manager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Silicon Wafer Fabrication Operator",
+          "validFor": null,
+          "value": "Silicon Wafer Fabrication Operator"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Solderer",
+          "validFor": null,
+          "value": "Solderer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Stationary Engineer",
+          "validFor": null,
+          "value": "Stationary Engineer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Structural Metal Fabricator",
+          "validFor": null,
+          "value": "Structural Metal Fabricator"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Supplier Quality Engineer",
+          "validFor": null,
+          "value": "Supplier Quality Engineer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Surface Mount Technology Machine Operator",
+          "validFor": null,
+          "value": "Surface Mount Technology Machine Operator"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Test Engineer",
+          "validFor": null,
+          "value": "Test Engineer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tool and Die Maker",
+          "validFor": null,
+          "value": "Tool and Die Maker"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tool Crib Attendant",
+          "validFor": null,
+          "value": "Tool Crib Attendant"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tool Room Supervisor",
+          "validFor": null,
+          "value": "Tool Room Supervisor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tool, Die, and Gauge Maker",
+          "validFor": null,
+          "value": "Tool, Die, and Gauge Maker"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "VP - Environmental & Sustainability",
+          "validFor": null,
+          "value": "VP - Environmental & Sustainability"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "VP - Health & Safety",
+          "validFor": null,
+          "value": "VP - Health & Safety"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "VP - Human Resourses",
+          "validFor": null,
+          "value": "VP - Human Resourses"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "VP - Sales",
+          "validFor": null,
+          "value": "VP - Sales"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "VP - Service",
+          "validFor": null,
+          "value": "VP - Service"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Wafer Processing Technician",
+          "validFor": null,
+          "value": "Wafer Processing Technician"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Warehouse Associate",
+          "validFor": null,
+          "value": "Warehouse Associate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Warehouse Manager",
+          "validFor": null,
+          "value": "Warehouse Manager"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Warehouse Worker",
+          "validFor": null,
+          "value": "Warehouse Worker"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Waste Treatment Plant Operator",
+          "validFor": null,
+          "value": "Waste Treatment Plant Operator"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Welder",
+          "validFor": null,
+          "value": "Welder"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Woodworker",
+          "validFor": null,
+          "value": "Woodworker"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Org. Business Unit",
+      "name": "compliancequest__Org_Business_Unit__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Not Applicable",
+          "validFor": null,
+          "value": "Not Applicable"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": "AM-Pharma BV",
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Org. Division",
+      "name": "compliancequest__Org_Division__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": true,
+          "label": "AM-Pharma BV",
+          "validFor": null,
+          "value": "AM-Pharma BV"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Org. Region",
+      "name": "compliancequest__Org_Region__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sample Region",
+          "validFor": null,
+          "value": "Sample Region"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Org. Site",
+      "name": "compliancequest__Org_Site__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sample Site",
+          "validFor": null,
+          "value": "Sample Site"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "Please enter the Phone number of the employee",
+      "label": "Phone",
+      "name": "compliancequest__Phone__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "phone"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Business Unit",
+      "name": "compliancequest__SQX_Business_Unit__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "compliancequest__SQX_Business_Unit__c"
+      ],
+      "relationshipName": "compliancequest__SQX_Business_Unit__r",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Department",
+      "name": "compliancequest__SQX_Department__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "compliancequest__SQX_Department__c"
+      ],
+      "relationshipName": "compliancequest__SQX_Department__r",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Division",
+      "name": "compliancequest__SQX_Division__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "compliancequest__SQX_Division__c"
+      ],
+      "relationshipName": "compliancequest__SQX_Division__r",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Location",
+      "name": "compliancequest__SQX_Location__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "compliancequest__SQX_Location__c"
+      ],
+      "relationshipName": "compliancequest__SQX_Location__r",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Site",
+      "name": "compliancequest__SQX_Site__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "compliancequest__SQX_Site__c"
+      ],
+      "relationshipName": "compliancequest__SQX_Site__r",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "User",
+      "name": "compliancequest__SQX_User__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "compliancequest__SQX_User__r",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Training Status",
+      "name": "compliancequest__Training_Status__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Unique User Constraint",
+      "name": "compliancequest__Unique_User_Constraint__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Pending Training Records Count",
+      "name": "compliancequest__Pending_Training_Records_Count__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "double"
+    }
+  ],
+  "label": "Personnel",
+  "childRelationships": [
+    {
+      "cascadeDelete": true,
+      "childSObject": "ActivityHistory",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ActivityHistories",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "AttachedContentDocument",
+      "deprecatedAndHidden": false,
+      "field": "LinkedEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "AttachedContentDocuments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "AttachedContentNote",
+      "deprecatedAndHidden": false,
+      "field": "LinkedEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "AttachedContentNotes",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "Attachment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Attachments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "CollaborationGroupRecord",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "RecordAssociatedGroups",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "CombinedAttachment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "CombinedAttachments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ContactRequest",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ContactRequests",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ContentDistribution",
+      "deprecatedAndHidden": false,
+      "field": "RelatedRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ContentDocumentLink",
+      "deprecatedAndHidden": false,
+      "field": "LinkedEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ContentDocumentLinks",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ContentVersion",
+      "deprecatedAndHidden": false,
+      "field": "FirstPublishLocationId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "DuplicateRecordItem",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "DuplicateRecordItems",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "EmailMessage",
+      "deprecatedAndHidden": false,
+      "field": "RelatedToId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Emails",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "EntitySubscription",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "FeedSubscriptionsForEntity",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "Event",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Events",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "EventChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "EventRelationChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "RelationId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FeedComment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "FeedItem",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FlowRecordRelation",
+      "deprecatedAndHidden": false,
+      "field": "RelatedRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "Note",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Notes",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "NoteAndAttachment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "NotesAndAttachments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "OpenActivity",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "OpenActivities",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "OutgoingEmail",
+      "deprecatedAndHidden": false,
+      "field": "RelatedToId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ProcessInstance",
+      "deprecatedAndHidden": false,
+      "field": "TargetObjectId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ProcessInstances",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ProcessInstanceHistory",
+      "deprecatedAndHidden": false,
+      "field": "TargetObjectId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ProcessSteps",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "RecordAction",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "RecordActions",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "RecordActionHistory",
+      "deprecatedAndHidden": false,
+      "field": "ParentRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "RecordActionHistories",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "Task",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Tasks",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "TaskChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "TopicAssignment",
+      "deprecatedAndHidden": false,
+      "field": "EntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "TopicAssignments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "compliancequest__SQX_Personnel_Assessment__c",
+      "deprecatedAndHidden": false,
+      "field": "compliancequest__SQX_Personnel__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "compliancequest__SQX_Personnel_Assessments__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "compliancequest__SQX_Personnel_Document_Training__c",
+      "deprecatedAndHidden": false,
+      "field": "compliancequest__SQX_Personnel__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "compliancequest__SQX_PersonnelDocumentTrainings__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "compliancequest__SQX_Personnel_Job_Function__c",
+      "deprecatedAndHidden": false,
+      "field": "compliancequest__SQX_Personnel__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "compliancequest__SQX_Personnel_Job_Functions__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "compliancequest__SQX_Personnel__History",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Histories",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "compliancequest__SQX_Personnel__Share",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Shares",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "compliancequest__SQX_Project__c",
+      "deprecatedAndHidden": false,
+      "field": "compliancequest__SQX_Personnel__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "compliancequest__SQX_Projects__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "compliancequest__SQX_Qualified_Trainer__c",
+      "deprecatedAndHidden": false,
+      "field": "compliancequest__SQX_Personnel__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "compliancequest__SQX_Qualified_Trainers__r",
+      "restrictedDelete": true
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "compliancequest__SQX_Training_Certificate__c",
+      "deprecatedAndHidden": false,
+      "field": "compliancequest__SQX_Personnel__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "compliancequest__SQX_Training_Certificates__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "compliancequest__SQX_Training_Session_Roster__c",
+      "deprecatedAndHidden": false,
+      "field": "compliancequest__SQX_Personnel__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "compliancequest__SQX_Training_Session_Rosters__r",
+      "restrictedDelete": true
+    }
+  ],
+  "custom": true,
+  "name": "compliancequest__SQX_Personnel__c",
+  "queryable": true
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+   
+   
+    <types>
+        <members>*</members>
+        <name>LightningComponentBundle</name>
+    </types>
+   
+     <types>
+        <members>compliancequest__SQX_Nonconformance__c-CQ AM Non-comformance Create</members>
+        <members>compliancequest__SQX_Nonconformance__c-CQ AM Non-comformance Edit</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>CQUI_AM_NC_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
+
+    <version>54.0</version>
+</Package>

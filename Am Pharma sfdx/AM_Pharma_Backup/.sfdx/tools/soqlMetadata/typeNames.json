@@ -1,0 +1,5466 @@
+[
+  {
+    "name": "AcceptedEventRelation",
+    "custom": false
+  },
+  {
+    "name": "Account",
+    "custom": false
+  },
+  {
+    "name": "AccountChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "AccountContactRole",
+    "custom": false
+  },
+  {
+    "name": "AccountContactRoleChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "AccountFeed",
+    "custom": false
+  },
+  {
+    "name": "AccountHistory",
+    "custom": false
+  },
+  {
+    "name": "AccountPartner",
+    "custom": false
+  },
+  {
+    "name": "AccountShare",
+    "custom": false
+  },
+  {
+    "name": "ActionLinkGroupTemplate",
+    "custom": false
+  },
+  {
+    "name": "ActionLinkTemplate",
+    "custom": false
+  },
+  {
+    "name": "ActiveFeatureLicenseMetric",
+    "custom": false
+  },
+  {
+    "name": "ActivePermSetLicenseMetric",
+    "custom": false
+  },
+  {
+    "name": "ActiveProfileMetric",
+    "custom": false
+  },
+  {
+    "name": "ActivityHistory",
+    "custom": false
+  },
+  {
+    "name": "AdditionalNumber",
+    "custom": false
+  },
+  {
+    "name": "AggregateResult",
+    "custom": false
+  },
+  {
+    "name": "Announcement",
+    "custom": false
+  },
+  {
+    "name": "ApexClass",
+    "custom": false
+  },
+  {
+    "name": "ApexComponent",
+    "custom": false
+  },
+  {
+    "name": "ApexEmailNotification",
+    "custom": false
+  },
+  {
+    "name": "ApexLog",
+    "custom": false
+  },
+  {
+    "name": "ApexPage",
+    "custom": false
+  },
+  {
+    "name": "ApexPageInfo",
+    "custom": false
+  },
+  {
+    "name": "ApexTestQueueItem",
+    "custom": false
+  },
+  {
+    "name": "ApexTestResult",
+    "custom": false
+  },
+  {
+    "name": "ApexTestResultLimits",
+    "custom": false
+  },
+  {
+    "name": "ApexTestRunResult",
+    "custom": false
+  },
+  {
+    "name": "ApexTestSuite",
+    "custom": false
+  },
+  {
+    "name": "ApexTrigger",
+    "custom": false
+  },
+  {
+    "name": "ApexTypeImplementor",
+    "custom": false
+  },
+  {
+    "name": "AppAnalyticsQueryRequest",
+    "custom": false
+  },
+  {
+    "name": "AppDefinition",
+    "custom": false
+  },
+  {
+    "name": "AppMenuItem",
+    "custom": false
+  },
+  {
+    "name": "AppTabMember",
+    "custom": false
+  },
+  {
+    "name": "Asset",
+    "custom": false
+  },
+  {
+    "name": "AssetChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "AssetFeed",
+    "custom": false
+  },
+  {
+    "name": "AssetHistory",
+    "custom": false
+  },
+  {
+    "name": "AssetRelationship",
+    "custom": false
+  },
+  {
+    "name": "AssetRelationshipFeed",
+    "custom": false
+  },
+  {
+    "name": "AssetRelationshipHistory",
+    "custom": false
+  },
+  {
+    "name": "AssetShare",
+    "custom": false
+  },
+  {
+    "name": "AssetTokenEvent",
+    "custom": false
+  },
+  {
+    "name": "AssignmentRule",
+    "custom": false
+  },
+  {
+    "name": "AssociatedLocation",
+    "custom": false
+  },
+  {
+    "name": "AssociatedLocationHistory",
+    "custom": false
+  },
+  {
+    "name": "AsyncApexJob",
+    "custom": false
+  },
+  {
+    "name": "AsyncOperationEvent",
+    "custom": false
+  },
+  {
+    "name": "AsyncOperationStatus",
+    "custom": false
+  },
+  {
+    "name": "AttachedContentDocument",
+    "custom": false
+  },
+  {
+    "name": "AttachedContentNote",
+    "custom": false
+  },
+  {
+    "name": "Attachment",
+    "custom": false
+  },
+  {
+    "name": "AuraDefinition",
+    "custom": false
+  },
+  {
+    "name": "AuraDefinitionBundle",
+    "custom": false
+  },
+  {
+    "name": "AuraDefinitionBundleInfo",
+    "custom": false
+  },
+  {
+    "name": "AuraDefinitionInfo",
+    "custom": false
+  },
+  {
+    "name": "AuthConfig",
+    "custom": false
+  },
+  {
+    "name": "AuthConfigProviders",
+    "custom": false
+  },
+  {
+    "name": "AuthProvider",
+    "custom": false
+  },
+  {
+    "name": "AuthSession",
+    "custom": false
+  },
+  {
+    "name": "AuthorizationForm",
+    "custom": false
+  },
+  {
+    "name": "AuthorizationFormConsent",
+    "custom": false
+  },
+  {
+    "name": "AuthorizationFormConsentChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "AuthorizationFormConsentHistory",
+    "custom": false
+  },
+  {
+    "name": "AuthorizationFormConsentShare",
+    "custom": false
+  },
+  {
+    "name": "AuthorizationFormDataUse",
+    "custom": false
+  },
+  {
+    "name": "AuthorizationFormDataUseHistory",
+    "custom": false
+  },
+  {
+    "name": "AuthorizationFormDataUseShare",
+    "custom": false
+  },
+  {
+    "name": "AuthorizationFormHistory",
+    "custom": false
+  },
+  {
+    "name": "AuthorizationFormShare",
+    "custom": false
+  },
+  {
+    "name": "AuthorizationFormText",
+    "custom": false
+  },
+  {
+    "name": "AuthorizationFormTextFeed",
+    "custom": false
+  },
+  {
+    "name": "AuthorizationFormTextHistory",
+    "custom": false
+  },
+  {
+    "name": "BackgroundOperation",
+    "custom": false
+  },
+  {
+    "name": "BackgroundOperationResult",
+    "custom": false
+  },
+  {
+    "name": "BatchApexErrorEvent",
+    "custom": false
+  },
+  {
+    "name": "BrandTemplate",
+    "custom": false
+  },
+  {
+    "name": "BrandingSet",
+    "custom": false
+  },
+  {
+    "name": "BrandingSetProperty",
+    "custom": false
+  },
+  {
+    "name": "BriefcaseAssignment",
+    "custom": false
+  },
+  {
+    "name": "BriefcaseAssignmentChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "BriefcaseDefinition",
+    "custom": false
+  },
+  {
+    "name": "BriefcaseDefinitionChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "BriefcaseRule",
+    "custom": false
+  },
+  {
+    "name": "BriefcaseRuleFilter",
+    "custom": false
+  },
+  {
+    "name": "BusinessBrand",
+    "custom": false
+  },
+  {
+    "name": "BusinessBrandShare",
+    "custom": false
+  },
+  {
+    "name": "BusinessHours",
+    "custom": false
+  },
+  {
+    "name": "BusinessProcess",
+    "custom": false
+  },
+  {
+    "name": "CQ_AM_SQX_Related_Part__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "CQ_AM_SQX_Related_Part__History",
+    "custom": false
+  },
+  {
+    "name": "CQ_AM_SQX_Related_Part__c",
+    "custom": true
+  },
+  {
+    "name": "CQ_CCC_Controlled_Doc_Default_Library__mdt",
+    "custom": true
+  },
+  {
+    "name": "Calendar",
+    "custom": false
+  },
+  {
+    "name": "CalendarView",
+    "custom": false
+  },
+  {
+    "name": "CalendarViewShare",
+    "custom": false
+  },
+  {
+    "name": "CallCenter",
+    "custom": false
+  },
+  {
+    "name": "CallCoachingMediaProvider",
+    "custom": false
+  },
+  {
+    "name": "Campaign",
+    "custom": false
+  },
+  {
+    "name": "CampaignChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "CampaignFeed",
+    "custom": false
+  },
+  {
+    "name": "CampaignHistory",
+    "custom": false
+  },
+  {
+    "name": "CampaignMember",
+    "custom": false
+  },
+  {
+    "name": "CampaignMemberChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "CampaignMemberStatus",
+    "custom": false
+  },
+  {
+    "name": "CampaignMemberStatusChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "CampaignShare",
+    "custom": false
+  },
+  {
+    "name": "Case",
+    "custom": false
+  },
+  {
+    "name": "CaseChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "CaseComment",
+    "custom": false
+  },
+  {
+    "name": "CaseContactRole",
+    "custom": false
+  },
+  {
+    "name": "CaseFeed",
+    "custom": false
+  },
+  {
+    "name": "CaseHistory",
+    "custom": false
+  },
+  {
+    "name": "CaseShare",
+    "custom": false
+  },
+  {
+    "name": "CaseSolution",
+    "custom": false
+  },
+  {
+    "name": "CaseStatus",
+    "custom": false
+  },
+  {
+    "name": "CaseSubjectParticle",
+    "custom": false
+  },
+  {
+    "name": "CaseTeamMember",
+    "custom": false
+  },
+  {
+    "name": "CaseTeamRole",
+    "custom": false
+  },
+  {
+    "name": "CaseTeamTemplate",
+    "custom": false
+  },
+  {
+    "name": "CaseTeamTemplateMember",
+    "custom": false
+  },
+  {
+    "name": "CaseTeamTemplateRecord",
+    "custom": false
+  },
+  {
+    "name": "CategoryData",
+    "custom": false
+  },
+  {
+    "name": "CategoryNode",
+    "custom": false
+  },
+  {
+    "name": "ChatterActivity",
+    "custom": false
+  },
+  {
+    "name": "ChatterExtension",
+    "custom": false
+  },
+  {
+    "name": "ChatterExtensionConfig",
+    "custom": false
+  },
+  {
+    "name": "ClientBrowser",
+    "custom": false
+  },
+  {
+    "name": "CollaborationGroup",
+    "custom": false
+  },
+  {
+    "name": "CollaborationGroupFeed",
+    "custom": false
+  },
+  {
+    "name": "CollaborationGroupMember",
+    "custom": false
+  },
+  {
+    "name": "CollaborationGroupMemberRequest",
+    "custom": false
+  },
+  {
+    "name": "CollaborationGroupRecord",
+    "custom": false
+  },
+  {
+    "name": "CollaborationInvitation",
+    "custom": false
+  },
+  {
+    "name": "ColorDefinition",
+    "custom": false
+  },
+  {
+    "name": "CombinedAttachment",
+    "custom": false
+  },
+  {
+    "name": "CommSubscription",
+    "custom": false
+  },
+  {
+    "name": "CommSubscriptionChannelType",
+    "custom": false
+  },
+  {
+    "name": "CommSubscriptionChannelTypeFeed",
+    "custom": false
+  },
+  {
+    "name": "CommSubscriptionChannelTypeHistory",
+    "custom": false
+  },
+  {
+    "name": "CommSubscriptionChannelTypeShare",
+    "custom": false
+  },
+  {
+    "name": "CommSubscriptionConsent",
+    "custom": false
+  },
+  {
+    "name": "CommSubscriptionConsentChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "CommSubscriptionConsentFeed",
+    "custom": false
+  },
+  {
+    "name": "CommSubscriptionConsentHistory",
+    "custom": false
+  },
+  {
+    "name": "CommSubscriptionConsentShare",
+    "custom": false
+  },
+  {
+    "name": "CommSubscriptionFeed",
+    "custom": false
+  },
+  {
+    "name": "CommSubscriptionHistory",
+    "custom": false
+  },
+  {
+    "name": "CommSubscriptionShare",
+    "custom": false
+  },
+  {
+    "name": "CommSubscriptionTiming",
+    "custom": false
+  },
+  {
+    "name": "CommSubscriptionTimingFeed",
+    "custom": false
+  },
+  {
+    "name": "CommSubscriptionTimingHistory",
+    "custom": false
+  },
+  {
+    "name": "Community",
+    "custom": false
+  },
+  {
+    "name": "ConferenceNumber",
+    "custom": false
+  },
+  {
+    "name": "ConnectedApplication",
+    "custom": false
+  },
+  {
+    "name": "Contact",
+    "custom": false
+  },
+  {
+    "name": "ContactChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ContactFeed",
+    "custom": false
+  },
+  {
+    "name": "ContactHistory",
+    "custom": false
+  },
+  {
+    "name": "ContactPointAddress",
+    "custom": false
+  },
+  {
+    "name": "ContactPointAddressChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ContactPointAddressHistory",
+    "custom": false
+  },
+  {
+    "name": "ContactPointAddressShare",
+    "custom": false
+  },
+  {
+    "name": "ContactPointConsent",
+    "custom": false
+  },
+  {
+    "name": "ContactPointConsentChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ContactPointConsentHistory",
+    "custom": false
+  },
+  {
+    "name": "ContactPointConsentShare",
+    "custom": false
+  },
+  {
+    "name": "ContactPointEmail",
+    "custom": false
+  },
+  {
+    "name": "ContactPointEmailChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ContactPointEmailHistory",
+    "custom": false
+  },
+  {
+    "name": "ContactPointEmailShare",
+    "custom": false
+  },
+  {
+    "name": "ContactPointPhone",
+    "custom": false
+  },
+  {
+    "name": "ContactPointPhoneChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ContactPointPhoneHistory",
+    "custom": false
+  },
+  {
+    "name": "ContactPointPhoneShare",
+    "custom": false
+  },
+  {
+    "name": "ContactPointTypeConsent",
+    "custom": false
+  },
+  {
+    "name": "ContactPointTypeConsentChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ContactPointTypeConsentHistory",
+    "custom": false
+  },
+  {
+    "name": "ContactPointTypeConsentShare",
+    "custom": false
+  },
+  {
+    "name": "ContactRequest",
+    "custom": false
+  },
+  {
+    "name": "ContactRequestShare",
+    "custom": false
+  },
+  {
+    "name": "ContactShare",
+    "custom": false
+  },
+  {
+    "name": "ContentAsset",
+    "custom": false
+  },
+  {
+    "name": "ContentBody",
+    "custom": false
+  },
+  {
+    "name": "ContentDistribution",
+    "custom": false
+  },
+  {
+    "name": "ContentDistributionView",
+    "custom": false
+  },
+  {
+    "name": "ContentDocument",
+    "custom": false
+  },
+  {
+    "name": "ContentDocumentChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ContentDocumentFeed",
+    "custom": false
+  },
+  {
+    "name": "ContentDocumentHistory",
+    "custom": false
+  },
+  {
+    "name": "ContentDocumentLink",
+    "custom": false
+  },
+  {
+    "name": "ContentDocumentLinkChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ContentDocumentSubscription",
+    "custom": false
+  },
+  {
+    "name": "ContentFolder",
+    "custom": false
+  },
+  {
+    "name": "ContentFolderItem",
+    "custom": false
+  },
+  {
+    "name": "ContentFolderLink",
+    "custom": false
+  },
+  {
+    "name": "ContentFolderMember",
+    "custom": false
+  },
+  {
+    "name": "ContentNote",
+    "custom": false
+  },
+  {
+    "name": "ContentNotification",
+    "custom": false
+  },
+  {
+    "name": "ContentTagSubscription",
+    "custom": false
+  },
+  {
+    "name": "ContentUserSubscription",
+    "custom": false
+  },
+  {
+    "name": "ContentVersion",
+    "custom": false
+  },
+  {
+    "name": "ContentVersionChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ContentVersionComment",
+    "custom": false
+  },
+  {
+    "name": "ContentVersionHistory",
+    "custom": false
+  },
+  {
+    "name": "ContentVersionRating",
+    "custom": false
+  },
+  {
+    "name": "ContentWorkspace",
+    "custom": false
+  },
+  {
+    "name": "ContentWorkspaceDoc",
+    "custom": false
+  },
+  {
+    "name": "ContentWorkspaceMember",
+    "custom": false
+  },
+  {
+    "name": "ContentWorkspacePermission",
+    "custom": false
+  },
+  {
+    "name": "ContentWorkspaceSubscription",
+    "custom": false
+  },
+  {
+    "name": "Contract",
+    "custom": false
+  },
+  {
+    "name": "ContractChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ContractContactRole",
+    "custom": false
+  },
+  {
+    "name": "ContractFeed",
+    "custom": false
+  },
+  {
+    "name": "ContractHistory",
+    "custom": false
+  },
+  {
+    "name": "ContractStatus",
+    "custom": false
+  },
+  {
+    "name": "CorsWhitelistEntry",
+    "custom": false
+  },
+  {
+    "name": "CronJobDetail",
+    "custom": false
+  },
+  {
+    "name": "CronTrigger",
+    "custom": false
+  },
+  {
+    "name": "CspTrustedSite",
+    "custom": false
+  },
+  {
+    "name": "CustomBrand",
+    "custom": false
+  },
+  {
+    "name": "CustomBrandAsset",
+    "custom": false
+  },
+  {
+    "name": "CustomHelpMenuItem",
+    "custom": false
+  },
+  {
+    "name": "CustomHelpMenuSection",
+    "custom": false
+  },
+  {
+    "name": "CustomHttpHeader",
+    "custom": false
+  },
+  {
+    "name": "CustomNotificationType",
+    "custom": false
+  },
+  {
+    "name": "CustomObjectUserLicenseMetrics",
+    "custom": false
+  },
+  {
+    "name": "CustomPermission",
+    "custom": false
+  },
+  {
+    "name": "CustomPermissionDependency",
+    "custom": false
+  },
+  {
+    "name": "Customer",
+    "custom": false
+  },
+  {
+    "name": "CustomerShare",
+    "custom": false
+  },
+  {
+    "name": "Dashboard",
+    "custom": false
+  },
+  {
+    "name": "DashboardComponent",
+    "custom": false
+  },
+  {
+    "name": "DashboardComponentFeed",
+    "custom": false
+  },
+  {
+    "name": "DashboardFeed",
+    "custom": false
+  },
+  {
+    "name": "DataAssessmentFieldMetric",
+    "custom": false
+  },
+  {
+    "name": "DataAssessmentMetric",
+    "custom": false
+  },
+  {
+    "name": "DataAssessmentValueMetric",
+    "custom": false
+  },
+  {
+    "name": "DataIntegrationRecordPurchasePermission",
+    "custom": false
+  },
+  {
+    "name": "DataObjectDataChgEvent",
+    "custom": false
+  },
+  {
+    "name": "DataStatistics",
+    "custom": false
+  },
+  {
+    "name": "DataType",
+    "custom": false
+  },
+  {
+    "name": "DataUseLegalBasis",
+    "custom": false
+  },
+  {
+    "name": "DataUseLegalBasisHistory",
+    "custom": false
+  },
+  {
+    "name": "DataUseLegalBasisShare",
+    "custom": false
+  },
+  {
+    "name": "DataUsePurpose",
+    "custom": false
+  },
+  {
+    "name": "DataUsePurposeHistory",
+    "custom": false
+  },
+  {
+    "name": "DataUsePurposeShare",
+    "custom": false
+  },
+  {
+    "name": "DatacloudAddress",
+    "custom": false
+  },
+  {
+    "name": "DeclinedEventRelation",
+    "custom": false
+  },
+  {
+    "name": "DeleteEvent",
+    "custom": false
+  },
+  {
+    "name": "Document",
+    "custom": false
+  },
+  {
+    "name": "DocumentAttachmentMap",
+    "custom": false
+  },
+  {
+    "name": "Domain",
+    "custom": false
+  },
+  {
+    "name": "DomainSite",
+    "custom": false
+  },
+  {
+    "name": "DuplicateRecordItem",
+    "custom": false
+  },
+  {
+    "name": "DuplicateRecordSet",
+    "custom": false
+  },
+  {
+    "name": "DuplicateRule",
+    "custom": false
+  },
+  {
+    "name": "EmailCapture",
+    "custom": false
+  },
+  {
+    "name": "EmailDomainFilter",
+    "custom": false
+  },
+  {
+    "name": "EmailDomainKey",
+    "custom": false
+  },
+  {
+    "name": "EmailMessage",
+    "custom": false
+  },
+  {
+    "name": "EmailMessageChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "EmailMessageRelation",
+    "custom": false
+  },
+  {
+    "name": "EmailRelay",
+    "custom": false
+  },
+  {
+    "name": "EmailServicesAddress",
+    "custom": false
+  },
+  {
+    "name": "EmailServicesFunction",
+    "custom": false
+  },
+  {
+    "name": "EmailStatus",
+    "custom": false
+  },
+  {
+    "name": "EmailTemplate",
+    "custom": false
+  },
+  {
+    "name": "EmailTemplateChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "EmbeddedServiceDetail",
+    "custom": false
+  },
+  {
+    "name": "EmbeddedServiceLabel",
+    "custom": false
+  },
+  {
+    "name": "EngagementChannelType",
+    "custom": false
+  },
+  {
+    "name": "EngagementChannelTypeFeed",
+    "custom": false
+  },
+  {
+    "name": "EngagementChannelTypeHistory",
+    "custom": false
+  },
+  {
+    "name": "EngagementChannelTypeShare",
+    "custom": false
+  },
+  {
+    "name": "EnhancedLetterhead",
+    "custom": false
+  },
+  {
+    "name": "EnhancedLetterheadFeed",
+    "custom": false
+  },
+  {
+    "name": "EntityDefinition",
+    "custom": false
+  },
+  {
+    "name": "EntityParticle",
+    "custom": false
+  },
+  {
+    "name": "EntitySubscription",
+    "custom": false
+  },
+  {
+    "name": "Event",
+    "custom": false
+  },
+  {
+    "name": "EventBusSubscriber",
+    "custom": false
+  },
+  {
+    "name": "EventChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "EventFeed",
+    "custom": false
+  },
+  {
+    "name": "EventLogFile",
+    "custom": false
+  },
+  {
+    "name": "EventRelation",
+    "custom": false
+  },
+  {
+    "name": "EventRelationChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "EventRelayConfig",
+    "custom": false
+  },
+  {
+    "name": "EventRelayConfigChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "EventRelayFeedback",
+    "custom": false
+  },
+  {
+    "name": "ExpressionFilter",
+    "custom": false
+  },
+  {
+    "name": "ExpressionFilterCriteria",
+    "custom": false
+  },
+  {
+    "name": "ExpressionSetView",
+    "custom": false
+  },
+  {
+    "name": "ExternalDataSource",
+    "custom": false
+  },
+  {
+    "name": "ExternalDataSrcDescriptor",
+    "custom": false
+  },
+  {
+    "name": "ExternalDataUserAuth",
+    "custom": false
+  },
+  {
+    "name": "ExternalEvent",
+    "custom": false
+  },
+  {
+    "name": "ExternalEventMapping",
+    "custom": false
+  },
+  {
+    "name": "ExternalEventMappingShare",
+    "custom": false
+  },
+  {
+    "name": "ExternalSocialAccount",
+    "custom": false
+  },
+  {
+    "name": "FeedAttachment",
+    "custom": false
+  },
+  {
+    "name": "FeedComment",
+    "custom": false
+  },
+  {
+    "name": "FeedItem",
+    "custom": false
+  },
+  {
+    "name": "FeedLike",
+    "custom": false
+  },
+  {
+    "name": "FeedPollChoice",
+    "custom": false
+  },
+  {
+    "name": "FeedPollVote",
+    "custom": false
+  },
+  {
+    "name": "FeedRevision",
+    "custom": false
+  },
+  {
+    "name": "FeedSignal",
+    "custom": false
+  },
+  {
+    "name": "FeedTrackedChange",
+    "custom": false
+  },
+  {
+    "name": "FieldDefinition",
+    "custom": false
+  },
+  {
+    "name": "FieldHistoryArchive",
+    "custom": false
+  },
+  {
+    "name": "FieldPermissions",
+    "custom": false
+  },
+  {
+    "name": "FieldSecurityClassification",
+    "custom": false
+  },
+  {
+    "name": "FileSearchActivity",
+    "custom": false
+  },
+  {
+    "name": "FiscalYearSettings",
+    "custom": false
+  },
+  {
+    "name": "FlexQueueItem",
+    "custom": false
+  },
+  {
+    "name": "FlowDefinitionView",
+    "custom": false
+  },
+  {
+    "name": "FlowExecutionErrorEvent",
+    "custom": false
+  },
+  {
+    "name": "FlowInterview",
+    "custom": false
+  },
+  {
+    "name": "FlowInterviewLog",
+    "custom": false
+  },
+  {
+    "name": "FlowInterviewLogEntry",
+    "custom": false
+  },
+  {
+    "name": "FlowInterviewLogShare",
+    "custom": false
+  },
+  {
+    "name": "FlowInterviewShare",
+    "custom": false
+  },
+  {
+    "name": "FlowOrchestrationEvent",
+    "custom": false
+  },
+  {
+    "name": "FlowOrchestrationInstance",
+    "custom": false
+  },
+  {
+    "name": "FlowOrchestrationInstanceShare",
+    "custom": false
+  },
+  {
+    "name": "FlowOrchestrationStageInstance",
+    "custom": false
+  },
+  {
+    "name": "FlowOrchestrationStageInstanceShare",
+    "custom": false
+  },
+  {
+    "name": "FlowOrchestrationStepInstance",
+    "custom": false
+  },
+  {
+    "name": "FlowOrchestrationStepInstanceShare",
+    "custom": false
+  },
+  {
+    "name": "FlowOrchestrationWorkItem",
+    "custom": false
+  },
+  {
+    "name": "FlowOrchestrationWorkItemShare",
+    "custom": false
+  },
+  {
+    "name": "FlowRecordRelation",
+    "custom": false
+  },
+  {
+    "name": "FlowStageRelation",
+    "custom": false
+  },
+  {
+    "name": "FlowTestResult",
+    "custom": false
+  },
+  {
+    "name": "FlowTestResultShare",
+    "custom": false
+  },
+  {
+    "name": "FlowTestView",
+    "custom": false
+  },
+  {
+    "name": "FlowVariableView",
+    "custom": false
+  },
+  {
+    "name": "FlowVersionView",
+    "custom": false
+  },
+  {
+    "name": "Folder",
+    "custom": false
+  },
+  {
+    "name": "FolderedContentDocument",
+    "custom": false
+  },
+  {
+    "name": "FormulaFunction",
+    "custom": false
+  },
+  {
+    "name": "FormulaFunctionAllowedType",
+    "custom": false
+  },
+  {
+    "name": "FormulaFunctionCategory",
+    "custom": false
+  },
+  {
+    "name": "GrantedByLicense",
+    "custom": false
+  },
+  {
+    "name": "Group",
+    "custom": false
+  },
+  {
+    "name": "GroupMember",
+    "custom": false
+  },
+  {
+    "name": "Holiday",
+    "custom": false
+  },
+  {
+    "name": "IPAddressRange",
+    "custom": false
+  },
+  {
+    "name": "IconDefinition",
+    "custom": false
+  },
+  {
+    "name": "Idea",
+    "custom": false
+  },
+  {
+    "name": "IdeaComment",
+    "custom": false
+  },
+  {
+    "name": "IdpEventLog",
+    "custom": false
+  },
+  {
+    "name": "IframeWhiteListUrl",
+    "custom": false
+  },
+  {
+    "name": "Image",
+    "custom": false
+  },
+  {
+    "name": "ImageFeed",
+    "custom": false
+  },
+  {
+    "name": "ImageHistory",
+    "custom": false
+  },
+  {
+    "name": "ImageShare",
+    "custom": false
+  },
+  {
+    "name": "Individual",
+    "custom": false
+  },
+  {
+    "name": "IndividualChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "IndividualHistory",
+    "custom": false
+  },
+  {
+    "name": "IndividualShare",
+    "custom": false
+  },
+  {
+    "name": "InstalledMobileApp",
+    "custom": false
+  },
+  {
+    "name": "KnowledgeableUser",
+    "custom": false
+  },
+  {
+    "name": "Lead",
+    "custom": false
+  },
+  {
+    "name": "LeadChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "LeadFeed",
+    "custom": false
+  },
+  {
+    "name": "LeadHistory",
+    "custom": false
+  },
+  {
+    "name": "LeadShare",
+    "custom": false
+  },
+  {
+    "name": "LeadStatus",
+    "custom": false
+  },
+  {
+    "name": "LightningExperienceTheme",
+    "custom": false
+  },
+  {
+    "name": "LightningOnboardingConfig",
+    "custom": false
+  },
+  {
+    "name": "ListEmail",
+    "custom": false
+  },
+  {
+    "name": "ListEmailChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ListEmailIndividualRecipient",
+    "custom": false
+  },
+  {
+    "name": "ListEmailRecipientSource",
+    "custom": false
+  },
+  {
+    "name": "ListEmailShare",
+    "custom": false
+  },
+  {
+    "name": "ListView",
+    "custom": false
+  },
+  {
+    "name": "ListViewChart",
+    "custom": false
+  },
+  {
+    "name": "ListViewChartInstance",
+    "custom": false
+  },
+  {
+    "name": "Location",
+    "custom": false
+  },
+  {
+    "name": "LocationChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "LocationFeed",
+    "custom": false
+  },
+  {
+    "name": "LocationHistory",
+    "custom": false
+  },
+  {
+    "name": "LocationShare",
+    "custom": false
+  },
+  {
+    "name": "LocationTrustMeasure",
+    "custom": false
+  },
+  {
+    "name": "LocationTrustMeasureShare",
+    "custom": false
+  },
+  {
+    "name": "LoginGeo",
+    "custom": false
+  },
+  {
+    "name": "LoginHistory",
+    "custom": false
+  },
+  {
+    "name": "LoginIp",
+    "custom": false
+  },
+  {
+    "name": "LogoutEventStream",
+    "custom": false
+  },
+  {
+    "name": "LookedUpFromActivity",
+    "custom": false
+  },
+  {
+    "name": "Macro",
+    "custom": false
+  },
+  {
+    "name": "MacroChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "MacroHistory",
+    "custom": false
+  },
+  {
+    "name": "MacroInstruction",
+    "custom": false
+  },
+  {
+    "name": "MacroInstructionChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "MacroShare",
+    "custom": false
+  },
+  {
+    "name": "MacroUsage",
+    "custom": false
+  },
+  {
+    "name": "MacroUsageShare",
+    "custom": false
+  },
+  {
+    "name": "MailmergeTemplate",
+    "custom": false
+  },
+  {
+    "name": "ManagedContent",
+    "custom": false
+  },
+  {
+    "name": "ManagedContentChannel",
+    "custom": false
+  },
+  {
+    "name": "ManagedContentSpace",
+    "custom": false
+  },
+  {
+    "name": "ManagedContentVariant",
+    "custom": false
+  },
+  {
+    "name": "MatchingInformation",
+    "custom": false
+  },
+  {
+    "name": "MatchingRule",
+    "custom": false
+  },
+  {
+    "name": "MatchingRuleItem",
+    "custom": false
+  },
+  {
+    "name": "MobileApplicationDetail",
+    "custom": false
+  },
+  {
+    "name": "MutingPermissionSet",
+    "custom": false
+  },
+  {
+    "name": "MyDomainDiscoverableLogin",
+    "custom": false
+  },
+  {
+    "name": "Name",
+    "custom": false
+  },
+  {
+    "name": "NamedCredential",
+    "custom": false
+  },
+  {
+    "name": "Note",
+    "custom": false
+  },
+  {
+    "name": "NoteAndAttachment",
+    "custom": false
+  },
+  {
+    "name": "OauthCustomScope",
+    "custom": false
+  },
+  {
+    "name": "OauthCustomScopeApp",
+    "custom": false
+  },
+  {
+    "name": "OauthToken",
+    "custom": false
+  },
+  {
+    "name": "ObjectPermissions",
+    "custom": false
+  },
+  {
+    "name": "OnboardingMetrics",
+    "custom": false
+  },
+  {
+    "name": "OpenActivity",
+    "custom": false
+  },
+  {
+    "name": "Opportunity",
+    "custom": false
+  },
+  {
+    "name": "OpportunityChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "OpportunityCompetitor",
+    "custom": false
+  },
+  {
+    "name": "OpportunityContactRole",
+    "custom": false
+  },
+  {
+    "name": "OpportunityContactRoleChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "OpportunityFeed",
+    "custom": false
+  },
+  {
+    "name": "OpportunityFieldHistory",
+    "custom": false
+  },
+  {
+    "name": "OpportunityHistory",
+    "custom": false
+  },
+  {
+    "name": "OpportunityLineItem",
+    "custom": false
+  },
+  {
+    "name": "OpportunityPartner",
+    "custom": false
+  },
+  {
+    "name": "OpportunityShare",
+    "custom": false
+  },
+  {
+    "name": "OpportunityStage",
+    "custom": false
+  },
+  {
+    "name": "Order",
+    "custom": false
+  },
+  {
+    "name": "OrderChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "OrderFeed",
+    "custom": false
+  },
+  {
+    "name": "OrderHistory",
+    "custom": false
+  },
+  {
+    "name": "OrderItem",
+    "custom": false
+  },
+  {
+    "name": "OrderItemChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "OrderItemFeed",
+    "custom": false
+  },
+  {
+    "name": "OrderItemHistory",
+    "custom": false
+  },
+  {
+    "name": "OrderShare",
+    "custom": false
+  },
+  {
+    "name": "OrderStatus",
+    "custom": false
+  },
+  {
+    "name": "OrgLifecycleNotification",
+    "custom": false
+  },
+  {
+    "name": "OrgMetric",
+    "custom": false
+  },
+  {
+    "name": "OrgMetricScanResult",
+    "custom": false
+  },
+  {
+    "name": "OrgMetricScanSummary",
+    "custom": false
+  },
+  {
+    "name": "OrgWideEmailAddress",
+    "custom": false
+  },
+  {
+    "name": "Organization",
+    "custom": false
+  },
+  {
+    "name": "OutgoingEmail",
+    "custom": false
+  },
+  {
+    "name": "OutgoingEmailRelation",
+    "custom": false
+  },
+  {
+    "name": "OwnedContentDocument",
+    "custom": false
+  },
+  {
+    "name": "OwnerChangeOptionInfo",
+    "custom": false
+  },
+  {
+    "name": "PackageLicense",
+    "custom": false
+  },
+  {
+    "name": "Partner",
+    "custom": false
+  },
+  {
+    "name": "PartnerRole",
+    "custom": false
+  },
+  {
+    "name": "PartyConsent",
+    "custom": false
+  },
+  {
+    "name": "PartyConsentChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "PartyConsentFeed",
+    "custom": false
+  },
+  {
+    "name": "PartyConsentHistory",
+    "custom": false
+  },
+  {
+    "name": "PartyConsentShare",
+    "custom": false
+  },
+  {
+    "name": "Period",
+    "custom": false
+  },
+  {
+    "name": "PermissionSet",
+    "custom": false
+  },
+  {
+    "name": "PermissionSetAssignment",
+    "custom": false
+  },
+  {
+    "name": "PermissionSetGroup",
+    "custom": false
+  },
+  {
+    "name": "PermissionSetGroupComponent",
+    "custom": false
+  },
+  {
+    "name": "PermissionSetLicense",
+    "custom": false
+  },
+  {
+    "name": "PermissionSetLicenseAssign",
+    "custom": false
+  },
+  {
+    "name": "PermissionSetTabSetting",
+    "custom": false
+  },
+  {
+    "name": "PicklistValueInfo",
+    "custom": false
+  },
+  {
+    "name": "PlatformAction",
+    "custom": false
+  },
+  {
+    "name": "PlatformCachePartition",
+    "custom": false
+  },
+  {
+    "name": "PlatformCachePartitionType",
+    "custom": false
+  },
+  {
+    "name": "PlatformEventUsageMetric",
+    "custom": false
+  },
+  {
+    "name": "PlatformStatusAlertEvent",
+    "custom": false
+  },
+  {
+    "name": "Pricebook2",
+    "custom": false
+  },
+  {
+    "name": "Pricebook2ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "Pricebook2History",
+    "custom": false
+  },
+  {
+    "name": "PricebookEntry",
+    "custom": false
+  },
+  {
+    "name": "PricebookEntryHistory",
+    "custom": false
+  },
+  {
+    "name": "ProcessDefinition",
+    "custom": false
+  },
+  {
+    "name": "ProcessException",
+    "custom": false
+  },
+  {
+    "name": "ProcessExceptionEvent",
+    "custom": false
+  },
+  {
+    "name": "ProcessExceptionShare",
+    "custom": false
+  },
+  {
+    "name": "ProcessInstance",
+    "custom": false
+  },
+  {
+    "name": "ProcessInstanceHistory",
+    "custom": false
+  },
+  {
+    "name": "ProcessInstanceNode",
+    "custom": false
+  },
+  {
+    "name": "ProcessInstanceStep",
+    "custom": false
+  },
+  {
+    "name": "ProcessInstanceWorkitem",
+    "custom": false
+  },
+  {
+    "name": "ProcessNode",
+    "custom": false
+  },
+  {
+    "name": "Product2",
+    "custom": false
+  },
+  {
+    "name": "Product2ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "Product2Feed",
+    "custom": false
+  },
+  {
+    "name": "Product2History",
+    "custom": false
+  },
+  {
+    "name": "Profile",
+    "custom": false
+  },
+  {
+    "name": "ProfileSkill",
+    "custom": false
+  },
+  {
+    "name": "ProfileSkillEndorsement",
+    "custom": false
+  },
+  {
+    "name": "ProfileSkillEndorsementFeed",
+    "custom": false
+  },
+  {
+    "name": "ProfileSkillEndorsementHistory",
+    "custom": false
+  },
+  {
+    "name": "ProfileSkillFeed",
+    "custom": false
+  },
+  {
+    "name": "ProfileSkillHistory",
+    "custom": false
+  },
+  {
+    "name": "ProfileSkillShare",
+    "custom": false
+  },
+  {
+    "name": "ProfileSkillUser",
+    "custom": false
+  },
+  {
+    "name": "ProfileSkillUserFeed",
+    "custom": false
+  },
+  {
+    "name": "ProfileSkillUserHistory",
+    "custom": false
+  },
+  {
+    "name": "Prompt",
+    "custom": false
+  },
+  {
+    "name": "PromptAction",
+    "custom": false
+  },
+  {
+    "name": "PromptActionShare",
+    "custom": false
+  },
+  {
+    "name": "PromptError",
+    "custom": false
+  },
+  {
+    "name": "PromptErrorShare",
+    "custom": false
+  },
+  {
+    "name": "PromptVersion",
+    "custom": false
+  },
+  {
+    "name": "Publisher",
+    "custom": false
+  },
+  {
+    "name": "PushTopic",
+    "custom": false
+  },
+  {
+    "name": "QueueSobject",
+    "custom": false
+  },
+  {
+    "name": "QuickText",
+    "custom": false
+  },
+  {
+    "name": "QuickTextChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "QuickTextHistory",
+    "custom": false
+  },
+  {
+    "name": "QuickTextShare",
+    "custom": false
+  },
+  {
+    "name": "QuickTextUsage",
+    "custom": false
+  },
+  {
+    "name": "QuickTextUsageShare",
+    "custom": false
+  },
+  {
+    "name": "RecentlyViewed",
+    "custom": false
+  },
+  {
+    "name": "Recommendation",
+    "custom": false
+  },
+  {
+    "name": "RecommendationChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "RecommendationResponse",
+    "custom": false
+  },
+  {
+    "name": "RecordAction",
+    "custom": false
+  },
+  {
+    "name": "RecordActionHistory",
+    "custom": false
+  },
+  {
+    "name": "RecordType",
+    "custom": false
+  },
+  {
+    "name": "RedirectWhitelistUrl",
+    "custom": false
+  },
+  {
+    "name": "RelatedListColumnDefinition",
+    "custom": false
+  },
+  {
+    "name": "RelatedListDefinition",
+    "custom": false
+  },
+  {
+    "name": "RelationshipDomain",
+    "custom": false
+  },
+  {
+    "name": "RelationshipInfo",
+    "custom": false
+  },
+  {
+    "name": "Report",
+    "custom": false
+  },
+  {
+    "name": "ReportFeed",
+    "custom": false
+  },
+  {
+    "name": "SPSamlAttributes",
+    "custom": false
+  },
+  {
+    "name": "SamlSsoConfig",
+    "custom": false
+  },
+  {
+    "name": "Scontrol",
+    "custom": false
+  },
+  {
+    "name": "Scorecard",
+    "custom": false
+  },
+  {
+    "name": "ScorecardAssociation",
+    "custom": false
+  },
+  {
+    "name": "ScorecardMetric",
+    "custom": false
+  },
+  {
+    "name": "ScorecardShare",
+    "custom": false
+  },
+  {
+    "name": "SearchLayout",
+    "custom": false
+  },
+  {
+    "name": "SecurityCustomBaseline",
+    "custom": false
+  },
+  {
+    "name": "Seller",
+    "custom": false
+  },
+  {
+    "name": "SellerShare",
+    "custom": false
+  },
+  {
+    "name": "ServiceSetupProvisioning",
+    "custom": false
+  },
+  {
+    "name": "SessionPermSetActivation",
+    "custom": false
+  },
+  {
+    "name": "SetupAssistantStep",
+    "custom": false
+  },
+  {
+    "name": "SetupAuditTrail",
+    "custom": false
+  },
+  {
+    "name": "SetupEntityAccess",
+    "custom": false
+  },
+  {
+    "name": "Site",
+    "custom": false
+  },
+  {
+    "name": "SiteDetail",
+    "custom": false
+  },
+  {
+    "name": "SiteFeed",
+    "custom": false
+  },
+  {
+    "name": "SiteHistory",
+    "custom": false
+  },
+  {
+    "name": "SiteIframeWhiteListUrl",
+    "custom": false
+  },
+  {
+    "name": "SiteRedirectMapping",
+    "custom": false
+  },
+  {
+    "name": "SocialPersona",
+    "custom": false
+  },
+  {
+    "name": "SocialPersonaHistory",
+    "custom": false
+  },
+  {
+    "name": "SocialPost",
+    "custom": false
+  },
+  {
+    "name": "SocialPostChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "SocialPostFeed",
+    "custom": false
+  },
+  {
+    "name": "SocialPostHistory",
+    "custom": false
+  },
+  {
+    "name": "SocialPostShare",
+    "custom": false
+  },
+  {
+    "name": "Solution",
+    "custom": false
+  },
+  {
+    "name": "SolutionFeed",
+    "custom": false
+  },
+  {
+    "name": "SolutionHistory",
+    "custom": false
+  },
+  {
+    "name": "SolutionStatus",
+    "custom": false
+  },
+  {
+    "name": "Stamp",
+    "custom": false
+  },
+  {
+    "name": "StampAssignment",
+    "custom": false
+  },
+  {
+    "name": "StaticResource",
+    "custom": false
+  },
+  {
+    "name": "StreamingChannel",
+    "custom": false
+  },
+  {
+    "name": "StreamingChannelShare",
+    "custom": false
+  },
+  {
+    "name": "TabDefinition",
+    "custom": false
+  },
+  {
+    "name": "Task",
+    "custom": false
+  },
+  {
+    "name": "TaskChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "TaskFeed",
+    "custom": false
+  },
+  {
+    "name": "TaskPriority",
+    "custom": false
+  },
+  {
+    "name": "TaskStatus",
+    "custom": false
+  },
+  {
+    "name": "TenantUsageEntitlement",
+    "custom": false
+  },
+  {
+    "name": "TestSuiteMembership",
+    "custom": false
+  },
+  {
+    "name": "ThirdPartyAccountLink",
+    "custom": false
+  },
+  {
+    "name": "TodayGoal",
+    "custom": false
+  },
+  {
+    "name": "TodayGoalShare",
+    "custom": false
+  },
+  {
+    "name": "Topic",
+    "custom": false
+  },
+  {
+    "name": "TopicAssignment",
+    "custom": false
+  },
+  {
+    "name": "TopicFeed",
+    "custom": false
+  },
+  {
+    "name": "TopicUserEvent",
+    "custom": false
+  },
+  {
+    "name": "Translation",
+    "custom": false
+  },
+  {
+    "name": "UiFormulaCriterion",
+    "custom": false
+  },
+  {
+    "name": "UiFormulaRule",
+    "custom": false
+  },
+  {
+    "name": "UndecidedEventRelation",
+    "custom": false
+  },
+  {
+    "name": "User",
+    "custom": false
+  },
+  {
+    "name": "UserAppInfo",
+    "custom": false
+  },
+  {
+    "name": "UserAppMenuCustomization",
+    "custom": false
+  },
+  {
+    "name": "UserAppMenuCustomizationShare",
+    "custom": false
+  },
+  {
+    "name": "UserAppMenuItem",
+    "custom": false
+  },
+  {
+    "name": "UserChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "UserEmailPreferredPerson",
+    "custom": false
+  },
+  {
+    "name": "UserEmailPreferredPersonShare",
+    "custom": false
+  },
+  {
+    "name": "UserEntityAccess",
+    "custom": false
+  },
+  {
+    "name": "UserFeed",
+    "custom": false
+  },
+  {
+    "name": "UserFieldAccess",
+    "custom": false
+  },
+  {
+    "name": "UserLicense",
+    "custom": false
+  },
+  {
+    "name": "UserListView",
+    "custom": false
+  },
+  {
+    "name": "UserListViewCriterion",
+    "custom": false
+  },
+  {
+    "name": "UserLogin",
+    "custom": false
+  },
+  {
+    "name": "UserPackageLicense",
+    "custom": false
+  },
+  {
+    "name": "UserPermissionAccess",
+    "custom": false
+  },
+  {
+    "name": "UserPreference",
+    "custom": false
+  },
+  {
+    "name": "UserProvAccount",
+    "custom": false
+  },
+  {
+    "name": "UserProvAccountStaging",
+    "custom": false
+  },
+  {
+    "name": "UserProvMockTarget",
+    "custom": false
+  },
+  {
+    "name": "UserProvisioningConfig",
+    "custom": false
+  },
+  {
+    "name": "UserProvisioningLog",
+    "custom": false
+  },
+  {
+    "name": "UserProvisioningRequest",
+    "custom": false
+  },
+  {
+    "name": "UserProvisioningRequestShare",
+    "custom": false
+  },
+  {
+    "name": "UserRecordAccess",
+    "custom": false
+  },
+  {
+    "name": "UserRole",
+    "custom": false
+  },
+  {
+    "name": "UserSetupEntityAccess",
+    "custom": false
+  },
+  {
+    "name": "UserShare",
+    "custom": false
+  },
+  {
+    "name": "VerificationHistory",
+    "custom": false
+  },
+  {
+    "name": "VisualforceAccessMetrics",
+    "custom": false
+  },
+  {
+    "name": "Vote",
+    "custom": false
+  },
+  {
+    "name": "WaveAutoInstallRequest",
+    "custom": false
+  },
+  {
+    "name": "WaveCompatibilityCheckItem",
+    "custom": false
+  },
+  {
+    "name": "WebLink",
+    "custom": false
+  },
+  {
+    "name": "WorkAccess",
+    "custom": false
+  },
+  {
+    "name": "WorkAccessShare",
+    "custom": false
+  },
+  {
+    "name": "WorkBadge",
+    "custom": false
+  },
+  {
+    "name": "WorkBadgeDefinition",
+    "custom": false
+  },
+  {
+    "name": "WorkBadgeDefinitionFeed",
+    "custom": false
+  },
+  {
+    "name": "WorkBadgeDefinitionHistory",
+    "custom": false
+  },
+  {
+    "name": "WorkBadgeDefinitionShare",
+    "custom": false
+  },
+  {
+    "name": "WorkOrder",
+    "custom": false
+  },
+  {
+    "name": "WorkOrderChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "WorkOrderFeed",
+    "custom": false
+  },
+  {
+    "name": "WorkOrderHistory",
+    "custom": false
+  },
+  {
+    "name": "WorkOrderLineItem",
+    "custom": false
+  },
+  {
+    "name": "WorkOrderLineItemChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "WorkOrderLineItemFeed",
+    "custom": false
+  },
+  {
+    "name": "WorkOrderLineItemHistory",
+    "custom": false
+  },
+  {
+    "name": "WorkOrderLineItemStatus",
+    "custom": false
+  },
+  {
+    "name": "WorkOrderShare",
+    "custom": false
+  },
+  {
+    "name": "WorkOrderStatus",
+    "custom": false
+  },
+  {
+    "name": "WorkThanks",
+    "custom": false
+  },
+  {
+    "name": "WorkThanksShare",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__CQ_Action_Override__mdt",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__CQ_Action__mdt",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__CQ_Analytics_Data__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__CQ_Analytics_Data__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__CQ_Analytics_Data__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__CQ_Content_Link__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__CQ_Content_Link__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__CQ_Content_Link__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__CQ_Content_Link__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__CQ_Feature_Activation__mdt",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__CQ_KVP__mdt",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__CQ_Lookup_Record_Access__mdt",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__CQ_Platform_Event__mdt",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__CQ_Quick_Action__mdt",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__CQ_Regulatory_Report_Setting__mdt",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__CQ_Related_Object_Addition_Support__mdt",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__CQ_SCORM_Configuration__mdt",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Action_Extension_History__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Action_Extension_History__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Action_Extension_History__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Action_Plan__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Action_Plan__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Action_Plan__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Action_Plan__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Action__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Action__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Action__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Action__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Alias__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Alias__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Alias__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Alias__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Answer_Option_Attribute__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Answer_Option_Attribute__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Answer_Option__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Answer_Option__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Answer_Option__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Application_Event__e",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Approval_Matrix_Step__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Approval_Matrix_Step__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Approval_Matrix_Step__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Approval_Matrix__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Approval_Matrix__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Approval_Matrix__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Approval_Matrix__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Approved_Investigation__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Approved_Investigation__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Approved_Investigation__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Approved_Root_Cause__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Approved_Root_Cause__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Assessment_Question__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Assessment_Question__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Assessment__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Assessment__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Assessment__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Association__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Association__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Association__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Association__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Attendee__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Attendee__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Checklist__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Checklist__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Criteria__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Criteria__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Criteria__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Criteria__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Program_Record_Activity__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Program_Record_Activity__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Program_Record_Activity__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Program_Scope__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Program_Scope__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Program__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Program__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Program__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Program__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Record_Activity__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Record_Activity__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Record_Activity__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Report__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Report__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Response__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Response__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Response__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Target__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Target__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Target__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Team__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Audit_Team__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Audit__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Audit__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Audit__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Audit__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Audit__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Auto_Number__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Auto_Number__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Auto_Number__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Binder__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Binder__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Binder__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Business_Unit__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Business_Unit__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Business_Unit__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_CAPA_Change_Order__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_CAPA_Change_Order__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_CAPA_Change_Order__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_CAPA_Defect__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_CAPA_Defect__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_CAPA_Defect__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_CAPA_Impacted_Site__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_CAPA_Impacted_Site__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_CAPA_Impacted_Site__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_CAPA_Investigation__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_CAPA_Investigation__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_CAPA_Investigation__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_CAPA_Record_Activity__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_CAPA_Record_Activity__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_CAPA_Response_Approval__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_CAPA_Response_Approval__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_CAPA_Response_Approval__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_CAPA_Team_Member__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_CAPA_Team_Member__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_CAPA__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_CAPA__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_CAPA__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_CAPA__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_CAPA__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Calibration__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Calibration__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Calibration__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Canada_Report__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Canada_Report__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Certification__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Certification__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Certification__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Change_Order_Approval__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Change_Order_Approval__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Change_Order_Approval__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Change_Order_Model__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Change_Order_Model__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Change_Order_Model__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Change_Order_Record_Activity__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Change_Order_Record_Activity__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Change_Order__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Change_Order__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Change_Order__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Change_Order__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Change_Order__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Change_Request_Approval__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Change_Request_Approval__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Change_Request_Approval__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Change_Request_Order__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Change_Request_Order__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Change_Request_Order__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Change_Request_Record_Activity__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Change_Request_Record_Activity__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Change_Request__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Change_Request__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Change_Request__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Change_Request__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Change_Request__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Change_Workflow__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Change_Workflow__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Change_Workflow__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Change_Workflow__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Checklist_Target__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Checklist_Target__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Complaint_Associated_Item__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Complaint_Associated_Item__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Complaint_Contact__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Complaint_Contact__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Complaint_Defect__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Complaint_Defect__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Complaint_Defect__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Complaint_Record_Activity__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Complaint_Record_Activity__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Complaint_Script_Execution_Link__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Complaint_Script_Execution_Link__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Complaint_Script_Execution_Link__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Complaint_Task__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Complaint_Task__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Complaint_Task__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Complaint__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Complaint__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Complaint__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Complaint__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Complaint__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Containment__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Containment__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Containment__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Containment__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Controlled_Doc_Record_Activity__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Controlled_Doc_Record_Activity__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Controlled_Doc_Record_Activity__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Controlled_Document_Approval__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Controlled_Document_Approval__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Controlled_Document_Approval__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Controlled_Document_Release__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Controlled_Document_Release__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Controlled_Document_Release__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Controlled_Document_Release__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Controlled_Document__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Controlled_Document__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Controlled_Document__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Controlled_Document__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Controlled_Document__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Criterion_Requirement__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Criterion_Requirement__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Criterion_Requirement__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Cross_Reference_Complaint__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Cross_Reference_Complaint__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Cross_Reference_Investigation__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Cross_Reference_Investigation__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Cross_Reference_Investigation__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Custom_Settings_Public__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Custom_Settings_Public__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_DT_Answer__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_DT_Answer__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Decision_Tree__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Decision_Tree__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Defect_Code__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Defect_Code__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Defect_Code__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Defect_Code__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Defect__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Defect__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Defect__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Department__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Department__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Department__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Detection__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Detection__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Deviation_Process2__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Deviation_Process2__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Deviation_Process2__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Deviation_Process__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Deviation_Process__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Disposition__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Disposition__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Disposition__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Disposition__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Distribution_Tracking__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Distribution_Tracking__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Distribution_Tracking__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Division__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Division__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Division__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Doc_Criterion_Requirement__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Doc_Criterion_Requirement__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Doc_Criterion_Requirement__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Document_Review__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Document_Review__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Document_Training__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Document_Training__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Effectiveness_Review__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Effectiveness_Review__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Effectiveness_Review__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Electronic_Signature_Record_Activity__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Electronic_Signature_Record_Activity__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Electronic_Signature_Record_Activity__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Equipment_Event_History__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Equipment_Event_History__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Equipment_Event_History__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Equipment_Event_Schedule__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Equipment_Event_Schedule__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Equipment_Event_Schedule__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Equipment_Record_Activity__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Equipment_Record_Activity__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Equipment__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Equipment__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Equipment__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Equipment__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Equipment__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Escalation_Reference__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Escalation_Reference__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Event_Failure_Log__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Event_Failure_Log__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Event_Failure_Log__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Evidence__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Evidence__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Evidence__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Extension_Request__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Extension_Request__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Extension_Request__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Extension_Request__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Extension_Request__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Finding_CAPA__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Finding_CAPA__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Finding_CAPA__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Finding_Investigation__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Finding_Investigation__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Finding_Investigation__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Finding_Record_Activity__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Finding_Record_Activity__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Finding_Record_Activity__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Finding_Response__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Finding_Response__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Finding_Response__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Finding_Response__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Finding_Response__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Finding__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Finding__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Finding__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Finding__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Finding__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_General_Report__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_General_Report__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Impact_Assessment_Answer__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Impact_Assessment_Answer__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Impact_Assessment_Execution__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Impact_Assessment_Execution__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Impact_Assessment_Execution__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Impact_Assessment_Model__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Impact_Assessment_Model__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Impact_Assessment_Outcome__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Impact_Assessment_Outcome__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Impact_Assessment__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Impact_Assessment__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Impact_Assessment__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Impact__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Impact__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Impact__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Impacted_Customer__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Impacted_Customer__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Impacted_Customer__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Impacted_Document__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Impacted_Document__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Impacted_Document__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Impacted_Product__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Impacted_Product__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Impacted_Product__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Impacted_Site__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Impacted_Site__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Impacted_Site__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Implementation__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Implementation__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Implementation__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Implementation__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Inspection_Detail__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Inspection_Detail__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Inspection_Record_Activity__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Inspection_Record_Activity__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Inspection__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Inspection__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Inspection__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Inspection__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Inspection__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Investigation_Record_Activity__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Investigation_Record_Activity__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Investigation_Reporting_Code__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Investigation_Reporting_Code__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Investigation_Reporting_Code__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Investigation_Tool_Name__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Investigation_Tool_Name__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Investigation_Tool_Name__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Investigation_Tool__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Investigation_Tool__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Investigation_Tool__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Investigation_Tool__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Investigation__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Investigation__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Investigation__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Investigation__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Investigation__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Job_Function__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Job_Function__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Job_Function__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Job_Function__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Lessons_Learned_Approval__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Lessons_Learned_Approval__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Lessons_Learned__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Lessons_Learned__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Lessons_Learned__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Lessons_Learned__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Likelihood__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Likelihood__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Linked_Investigation__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Linked_Investigation__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Linked_Investigation__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Linked_Related_Change__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Linked_Related_Change__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Linked_Risk_Treatment__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Linked_Risk_Treatment__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Linked_Risk_Treatment__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Location__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Location__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Location__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Location__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Long_Text_History__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Long_Text_History__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Long_Text_History__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Lot_Info__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Lot_Info__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Material_Transaction__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Material_Transaction__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_MedDev__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_MedDev__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Medwatch_D11_Medical_Prod_Null_Value__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Medwatch_D11_Medical_Prod_Null_Value__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Medwatch_D11_Medical_Product__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Medwatch_D11_Medical_Product__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Medwatch_F10_Device_Code__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Medwatch_F10_Device_Code__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Medwatch_F10_Patient_Code__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Medwatch_F10_Patient_Code__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Medwatch_H6_Conclusion__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Medwatch_H6_Conclusion__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Medwatch_H6_Device_Code__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Medwatch_H6_Device_Code__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Medwatch_H6_Method__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Medwatch_H6_Method__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Medwatch_H6_Patient_Code__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Medwatch_H6_Patient_Code__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Medwatch_H6_Result__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Medwatch_H6_Result__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Medwatch_Null_Value__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Medwatch_Null_Value__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Medwatch_Suspect_Product_Null_Value__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Medwatch_Suspect_Product_Null_Value__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Medwatch_Suspect_Product__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Medwatch_Suspect_Product__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Medwatch__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Medwatch__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Meeting_Dashboard__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Meeting_Dashboard__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Meeting_Dashboard__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Meeting_Record_Activity__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Meeting_Record_Activity__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Meeting_Series__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Meeting_Series__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Meeting_Series__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Meeting_Series__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Meeting__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Meeting__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Meeting__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Meeting__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_NC_CAPA__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_NC_CAPA__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_NC_Defect__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_NC_Defect__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_NC_Defect__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_NC_Impacted_Product__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_NC_Impacted_Product__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_NC_Impacted_Product__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_NC_Investigation__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_NC_Investigation__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_NC_Investigation__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_NC_Record_Activity__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_NC_Record_Activity__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_NC_Record_Activity__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_NC_Staging__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_NC_Staging__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_NC_Staging__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_NC_Team_Member__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_NC_Team_Member__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_NSI_Record_Activity__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_NSI_Record_Activity__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_New_Supplier_Introduction__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_New_Supplier_Introduction__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_New_Supplier_Introduction__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_New_Supplier_Introduction__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_New_Supplier_Introduction__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Nonconformance_Response_Approval__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Nonconformance_Response_Approval__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Nonconformance__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Nonconformance__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Nonconformance__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Nonconformance__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Objective_Evidence__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Objective_Evidence__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Onboarding_Step2__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Onboarding_Step2__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Onboarding_Step2__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Onboarding_Step2__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Onboarding_Step__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Onboarding_Step__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Onboarding_Step__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Part_Family__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Part_Family__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Part_Family__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Part_Family__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Part_Link__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Part_Link__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Part__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Part__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Part__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Part__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Personnel_Assessment_Answer__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Personnel_Assessment_Answer__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Personnel_Assessment_Answer__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Personnel_Assessment_Attempt__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Personnel_Assessment_Attempt__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Personnel_Assessment_Attempt__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Personnel_Assessment__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Personnel_Assessment__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Personnel_Assessment__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Personnel_Document_Job_Function__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Personnel_Document_Job_Function__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Personnel_Document_Training__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Personnel_Document_Training__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Personnel_Document_Training__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Personnel_Job_Function__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Personnel_Job_Function__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Personnel_Job_Function__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Personnel__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Personnel__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Personnel__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Personnel__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Picklist_Value__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Picklist_Value__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Product_Defect_Link__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Product_Defect_Link__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Product_Defect_Link__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Product_History_Answer__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Product_History_Answer__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Product_History_Review__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Product_History_Review__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Product_History_Review__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Product_History_Review__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Project_Approval__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Project_Approval__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Project_Approval__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Project_Record_Activity__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Project_Record_Activity__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Project_Team__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Project_Team__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Project__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Project__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Project__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Project__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Qualified_Trainer__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Qualified_Trainer__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Qualified_Trainer__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Receipt__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Receipt__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Receipt__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Regulatory_Information__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Regulatory_Information__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Regulatory_Report__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Regulatory_Report__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Related_Document__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Related_Document__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Related_Document__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Related_Finding__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Related_Finding__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Related_Product__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Related_Product__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Rendition_Log__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Rendition_Log__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Rendition_Providers__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Rendition_Providers__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Reporting_Default__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Reporting_Default__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Requirement__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Requirement__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Requirement__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Resp_Inclusion_Approval__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Resp_Inclusion_Approval__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Response_Inclusion__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Response_Inclusion__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Result_Type_Value__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Result_Type_Value__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Result_Type_Value__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Result_Type__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Result_Type__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Result_Type__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Assessment_Impact__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Assessment_Impact__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Assessment_Response__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Assessment_Response__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Assessment_Response__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Assessment__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Assessment__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Impact__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Impact__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Model__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Model__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Model__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Periodic_Review__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Periodic_Review__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Prioritization__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Prioritization__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Record_Activity__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Record_Activity__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Reference__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Reference__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Reference__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Transfer__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Transfer__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Transfer__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Treatment_Action__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Treatment_Action__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Treatment_Action__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Treatment_Action__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Treatment_Record_Activity__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Treatment_Record_Activity__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Treatment__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Treatment__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Treatment__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Risk_Treatment__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Risk__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Risk__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Risk__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Risk__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Root_Cause_Category__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Root_Cause_Category__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Root_Cause_Category__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Root_Cause_Category__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Root_Cause_Code__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Root_Cause_Code__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Root_Cause_Code__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Root_Cause_Code__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Root_Cause_Sub_Category__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Root_Cause_Sub_Category__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Root_Cause_Sub_Category__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Root_Cause__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Root_Cause__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Root_Cause__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Sample_Tracking__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Sample_Tracking__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Sample_Tracking__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Sample_Tracking__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Script_Attribute__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Script_Attribute__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Script_Execution__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Script_Execution__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Script_Execution__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Script_Execution__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Script_Response__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Script_Response__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Site__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Site__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Site__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Specification__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Specification__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Standard_Service__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Standard_Service__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Standard_Service__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Standard_Service__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Submission_History__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Submission_History__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Deviation_Finding__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Deviation_Finding__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Deviation_Finding__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Deviation_NC__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Deviation_NC__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Deviation_NC__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Deviation_Record_Activity__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Deviation_Record_Activity__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Deviation__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Deviation__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Deviation__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Deviation__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Deviation__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Escalation_Record_Activity__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Escalation_Record_Activity__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Escalation_Step2__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Escalation_Step2__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Escalation_Step2__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Escalation_Step__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Escalation_Step__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Escalation__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Escalation__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Escalation__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Escalation__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Interaction_Record_Activity__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Interaction_Record_Activity__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Interaction_Step2__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Interaction_Step2__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Interaction_Step2__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Interaction_Step__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Interaction_Step__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Interaction__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Interaction__Feed",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Interaction__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Interaction__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Part__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Part__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Part__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Service__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Service__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Supplier_Service__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Task_Question__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Task_Question__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Task_Question__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Task__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Task__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Task__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Task__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_TempStore__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_TempStore__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_TempStore__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Temp_Store_Attachment__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Temp_Store_Attachment__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Training_Certificate__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Training_Certificate__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Training_Fulfilled_Requirement__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Training_Fulfilled_Requirement__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Training_Session_Record_Activity__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Training_Session_Record_Activity__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Training_Session_Roster__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Training_Session_Roster__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Training_Session__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Training_Session__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Training_Session__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_User_Default_Option__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_User_Default_Option__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_User_Job_Function__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_User_Job_Function__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_User_Job_Function__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_User_Job_Function__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__SQX_Why__ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Why__History",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Why__Share",
+    "custom": false
+  },
+  {
+    "name": "compliancequest__SQX_Why__c",
+    "custom": true
+  },
+  {
+    "name": "compliancequest__Secondary_Format_Setting__mdt",
+    "custom": true
+  },
+  {
+    "name": "cqcollab__CQDE_Office365_Configuration__mdt",
+    "custom": true
+  }
+]

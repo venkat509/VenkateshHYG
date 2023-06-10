@@ -1,0 +1,4035 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Record ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Owner ID",
+      "name": "OwnerId",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "Group",
+        "User"
+      ],
+      "relationshipName": "Owner",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Deleted",
+      "name": "IsDeleted",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Name",
+      "name": "Name",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Created Date",
+      "name": "CreatedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Created By ID",
+      "name": "CreatedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "CreatedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Modified Date",
+      "name": "LastModifiedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Last Modified By ID",
+      "name": "LastModifiedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "LastModifiedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "System Modstamp",
+      "name": "SystemModstamp",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Last Activity Date",
+      "name": "LastActivityDate",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "date"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Viewed Date",
+      "name": "LastViewedDate",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Referenced Date",
+      "name": "LastReferencedDate",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Description",
+      "name": "compliancequest__Description__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Uniqueness Constraint",
+      "name": "compliancequest__Uniqueness_Constraint__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Language",
+      "name": "compliancequest__Language__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Abkhazian",
+          "validFor": null,
+          "value": "ABK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Achinese",
+          "validFor": null,
+          "value": "ACE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Acoli",
+          "validFor": null,
+          "value": "ACH"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Adangme",
+          "validFor": null,
+          "value": "ADA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Adyghe",
+          "validFor": null,
+          "value": "ADY"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Afar",
+          "validFor": null,
+          "value": "AAR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Afrihili",
+          "validFor": null,
+          "value": "AFH"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Afrikaans",
+          "validFor": null,
+          "value": "AFR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Afro-Asiatic languages",
+          "validFor": null,
+          "value": "AFA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Ainu",
+          "validFor": null,
+          "value": "AIN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Akan",
+          "validFor": null,
+          "value": "AKA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Akkadian",
+          "validFor": null,
+          "value": "AKK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Albanian",
+          "validFor": null,
+          "value": "ALB"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Aleut",
+          "validFor": null,
+          "value": "ALE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Algonquian languages",
+          "validFor": null,
+          "value": "ALG"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Altaic languages",
+          "validFor": null,
+          "value": "TUT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Amharic",
+          "validFor": null,
+          "value": "AMH"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Angika",
+          "validFor": null,
+          "value": "ANP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Apache languages",
+          "validFor": null,
+          "value": "APA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Arabic",
+          "validFor": null,
+          "value": "ARA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Aragonese",
+          "validFor": null,
+          "value": "ARG"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Arapaho",
+          "validFor": null,
+          "value": "ARP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Arawak",
+          "validFor": null,
+          "value": "ARW"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Armenian",
+          "validFor": null,
+          "value": "ARM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Aromanian",
+          "validFor": null,
+          "value": "RUP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Artificial languages",
+          "validFor": null,
+          "value": "ART"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Assamese",
+          "validFor": null,
+          "value": "ASM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Asturian",
+          "validFor": null,
+          "value": "AST"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Athapascan languages",
+          "validFor": null,
+          "value": "ATH"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Australian languages",
+          "validFor": null,
+          "value": "AUS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Austronesian languages",
+          "validFor": null,
+          "value": "MAP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Avaric",
+          "validFor": null,
+          "value": "AVA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Avestan",
+          "validFor": null,
+          "value": "AVE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Awadhi",
+          "validFor": null,
+          "value": "AWA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Aymara",
+          "validFor": null,
+          "value": "AYM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Azerbaijani",
+          "validFor": null,
+          "value": "AZE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Balinese",
+          "validFor": null,
+          "value": "BAN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Baltic languages",
+          "validFor": null,
+          "value": "BAT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Baluchi",
+          "validFor": null,
+          "value": "BAL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Bambara",
+          "validFor": null,
+          "value": "BAM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Bamileke languages",
+          "validFor": null,
+          "value": "BAI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Banda languages",
+          "validFor": null,
+          "value": "BAD"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Bantu languages",
+          "validFor": null,
+          "value": "BNT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Basa",
+          "validFor": null,
+          "value": "BAS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Bashkir",
+          "validFor": null,
+          "value": "BAK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Basque",
+          "validFor": null,
+          "value": "BAQ"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Batak languages",
+          "validFor": null,
+          "value": "BTK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Beja",
+          "validFor": null,
+          "value": "BEJ"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Belarusian",
+          "validFor": null,
+          "value": "BEL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Bemba",
+          "validFor": null,
+          "value": "BEM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Bengali",
+          "validFor": null,
+          "value": "BEN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Berber languages",
+          "validFor": null,
+          "value": "BER"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Bhojpuri",
+          "validFor": null,
+          "value": "BHO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Bihari languages",
+          "validFor": null,
+          "value": "BIH"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Bikol",
+          "validFor": null,
+          "value": "BIK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Bini",
+          "validFor": null,
+          "value": "BIN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Bislama",
+          "validFor": null,
+          "value": "BIS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Blin",
+          "validFor": null,
+          "value": "BYN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Blissymbols",
+          "validFor": null,
+          "value": "ZBL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Bokmål, Norwegian",
+          "validFor": null,
+          "value": "NOB"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Bosnian",
+          "validFor": null,
+          "value": "BOS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Braj",
+          "validFor": null,
+          "value": "BRA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Breton",
+          "validFor": null,
+          "value": "BRE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Buginese",
+          "validFor": null,
+          "value": "BUG"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Bulgarian",
+          "validFor": null,
+          "value": "BUL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Buriat",
+          "validFor": null,
+          "value": "BUA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Burmese",
+          "validFor": null,
+          "value": "BUR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Caddo",
+          "validFor": null,
+          "value": "CAD"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Catalan",
+          "validFor": null,
+          "value": "CAT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Caucasian languages",
+          "validFor": null,
+          "value": "CAU"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Cebuano",
+          "validFor": null,
+          "value": "CEB"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Celtic languages",
+          "validFor": null,
+          "value": "CEL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Central American Indian languages",
+          "validFor": null,
+          "value": "CAI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Central Khmer",
+          "validFor": null,
+          "value": "KHM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Chagatai",
+          "validFor": null,
+          "value": "CHG"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Chamic languages",
+          "validFor": null,
+          "value": "CMC"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Chamorro",
+          "validFor": null,
+          "value": "CHA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Chechen",
+          "validFor": null,
+          "value": "CHE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Cherokee",
+          "validFor": null,
+          "value": "CHR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Cheyenne",
+          "validFor": null,
+          "value": "CHY"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Chibcha",
+          "validFor": null,
+          "value": "CHB"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Chichewa",
+          "validFor": null,
+          "value": "NYA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Chinese",
+          "validFor": null,
+          "value": "CHI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Chinook jargon",
+          "validFor": null,
+          "value": "CHN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Chipewyan",
+          "validFor": null,
+          "value": "CHP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Choctaw",
+          "validFor": null,
+          "value": "CHO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Church Slavic",
+          "validFor": null,
+          "value": "CHU"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Chuukese",
+          "validFor": null,
+          "value": "CHK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Chuvash",
+          "validFor": null,
+          "value": "CHV"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Classical Newari",
+          "validFor": null,
+          "value": "NWC"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Classical Syriac",
+          "validFor": null,
+          "value": "SYC"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Coptic",
+          "validFor": null,
+          "value": "COP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Cornish",
+          "validFor": null,
+          "value": "COR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Corsican",
+          "validFor": null,
+          "value": "COS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Cree",
+          "validFor": null,
+          "value": "CRE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Creek",
+          "validFor": null,
+          "value": "MUS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Creoles and pidgins",
+          "validFor": null,
+          "value": "CRP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Creoles and pidgins, English based",
+          "validFor": null,
+          "value": "CPE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Creoles and pidgins, French-based",
+          "validFor": null,
+          "value": "CPF"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Creoles and pidgins, Portuguese-based",
+          "validFor": null,
+          "value": "CPP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Crimean Tatar",
+          "validFor": null,
+          "value": "CRH"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Croatian",
+          "validFor": null,
+          "value": "HRV"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Cushitic languages",
+          "validFor": null,
+          "value": "CUS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Czech",
+          "validFor": null,
+          "value": "CZE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Dakota",
+          "validFor": null,
+          "value": "DAK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Danish",
+          "validFor": null,
+          "value": "DAN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Dargwa",
+          "validFor": null,
+          "value": "DAR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Delaware",
+          "validFor": null,
+          "value": "DEL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Dinka",
+          "validFor": null,
+          "value": "DIN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Divehi",
+          "validFor": null,
+          "value": "DIV"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Dogri",
+          "validFor": null,
+          "value": "DOI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Dogrib",
+          "validFor": null,
+          "value": "DGR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Dravidian languages",
+          "validFor": null,
+          "value": "DRA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Duala",
+          "validFor": null,
+          "value": "DUA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Dutch, Middle (ca.1050-1350)",
+          "validFor": null,
+          "value": "DUM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Dutch",
+          "validFor": null,
+          "value": "DUT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Dyula",
+          "validFor": null,
+          "value": "DYU"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Dzongkha",
+          "validFor": null,
+          "value": "DZO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Eastern Frisian",
+          "validFor": null,
+          "value": "FRS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Efik",
+          "validFor": null,
+          "value": "EFI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Egyptian (Ancient)",
+          "validFor": null,
+          "value": "EGY"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Ekajuk",
+          "validFor": null,
+          "value": "EKA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Elamite",
+          "validFor": null,
+          "value": "ELX"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "English",
+          "validFor": null,
+          "value": "ENG"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "English, Middle (1100-1500)",
+          "validFor": null,
+          "value": "ENM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "English, Old (ca.450-1100)",
+          "validFor": null,
+          "value": "ANG"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Erzya",
+          "validFor": null,
+          "value": "MYV"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Esperanto",
+          "validFor": null,
+          "value": "EPO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Estonian",
+          "validFor": null,
+          "value": "EST"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Ewe",
+          "validFor": null,
+          "value": "EWE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Ewondo",
+          "validFor": null,
+          "value": "EWO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Fang",
+          "validFor": null,
+          "value": "FAN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Fanti",
+          "validFor": null,
+          "value": "FAT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Faroese",
+          "validFor": null,
+          "value": "FAO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Fijian",
+          "validFor": null,
+          "value": "FIJ"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Filipino",
+          "validFor": null,
+          "value": "FIL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Finnish",
+          "validFor": null,
+          "value": "FIN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Finno-Ugrian languages",
+          "validFor": null,
+          "value": "FIU"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Fon",
+          "validFor": null,
+          "value": "FON"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "French",
+          "validFor": null,
+          "value": "FRE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "French, Middle (ca.1400-1600)",
+          "validFor": null,
+          "value": "FRM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "French, Old (842-ca.1400)",
+          "validFor": null,
+          "value": "FRO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Friulian",
+          "validFor": null,
+          "value": "FUR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Fulah",
+          "validFor": null,
+          "value": "FUL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Ga",
+          "validFor": null,
+          "value": "GAA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Gaelic",
+          "validFor": null,
+          "value": "GLA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Galibi Carib",
+          "validFor": null,
+          "value": "CAR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Galician",
+          "validFor": null,
+          "value": "GLG"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Ganda",
+          "validFor": null,
+          "value": "LUG"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Gayo",
+          "validFor": null,
+          "value": "GAY"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Gbaya",
+          "validFor": null,
+          "value": "GBA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Geez",
+          "validFor": null,
+          "value": "GEZ"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Georgian",
+          "validFor": null,
+          "value": "GEO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "German",
+          "validFor": null,
+          "value": "GER"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "German, Middle High (ca.1050-1500)",
+          "validFor": null,
+          "value": "GMH"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "German, Old High (ca.750-1050)",
+          "validFor": null,
+          "value": "GOH"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Germanic languages",
+          "validFor": null,
+          "value": "GEM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Gilbertese",
+          "validFor": null,
+          "value": "GIL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Gondi",
+          "validFor": null,
+          "value": "GON"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Gorontalo",
+          "validFor": null,
+          "value": "GOR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Gothic",
+          "validFor": null,
+          "value": "GOT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Grebo",
+          "validFor": null,
+          "value": "GRB"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Greek, Ancient (to 1453)",
+          "validFor": null,
+          "value": "GRC"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Greek, Modern (1453-)",
+          "validFor": null,
+          "value": "GRE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Guarani",
+          "validFor": null,
+          "value": "GRN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Gujarati",
+          "validFor": null,
+          "value": "GUJ"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Gwich'in",
+          "validFor": null,
+          "value": "GWI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Haida",
+          "validFor": null,
+          "value": "HAI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Haitian",
+          "validFor": null,
+          "value": "HAT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Hausa",
+          "validFor": null,
+          "value": "HAU"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Hawaiian",
+          "validFor": null,
+          "value": "HAW"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Hebrew",
+          "validFor": null,
+          "value": "HEB"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Herero",
+          "validFor": null,
+          "value": "HER"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Hiligaynon",
+          "validFor": null,
+          "value": "HIL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Himachali languages",
+          "validFor": null,
+          "value": "HIM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Hindi",
+          "validFor": null,
+          "value": "HIN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Hiri Motu",
+          "validFor": null,
+          "value": "HMO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Hittite",
+          "validFor": null,
+          "value": "HIT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Hmong",
+          "validFor": null,
+          "value": "HMN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Hungarian",
+          "validFor": null,
+          "value": "HUN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Hupa",
+          "validFor": null,
+          "value": "HUP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Iban",
+          "validFor": null,
+          "value": "IBA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Icelandic",
+          "validFor": null,
+          "value": "ICE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Ido",
+          "validFor": null,
+          "value": "IDO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Igbo",
+          "validFor": null,
+          "value": "IBO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Ijo languages",
+          "validFor": null,
+          "value": "IJO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Iloko",
+          "validFor": null,
+          "value": "ILO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Inari Sami",
+          "validFor": null,
+          "value": "SMN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Indic languages",
+          "validFor": null,
+          "value": "INC"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Indo-European languages",
+          "validFor": null,
+          "value": "INE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Indonesian",
+          "validFor": null,
+          "value": "IND"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Ingush",
+          "validFor": null,
+          "value": "INH"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Interlingua (International Auxiliary Language Association)",
+          "validFor": null,
+          "value": "INA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Interlingue",
+          "validFor": null,
+          "value": "ILE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Inuktitut",
+          "validFor": null,
+          "value": "IKU"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Inupiaq",
+          "validFor": null,
+          "value": "IPK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Iranian languages",
+          "validFor": null,
+          "value": "IRA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Irish",
+          "validFor": null,
+          "value": "GLE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Irish, Middle (900-1200)",
+          "validFor": null,
+          "value": "MGA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Irish, Old (to 900)",
+          "validFor": null,
+          "value": "SGA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Iroquoian languages",
+          "validFor": null,
+          "value": "IRO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Italian",
+          "validFor": null,
+          "value": "ITA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Japanese",
+          "validFor": null,
+          "value": "JPN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Javanese",
+          "validFor": null,
+          "value": "JAV"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Judeo-Arabic",
+          "validFor": null,
+          "value": "JRB"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Judeo-Persian",
+          "validFor": null,
+          "value": "JPR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kabardian",
+          "validFor": null,
+          "value": "KBD"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kabyle",
+          "validFor": null,
+          "value": "KAB"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kachin",
+          "validFor": null,
+          "value": "KAC"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kalaallisut",
+          "validFor": null,
+          "value": "KAL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kalmyk",
+          "validFor": null,
+          "value": "XAL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kamba",
+          "validFor": null,
+          "value": "KAM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kannada",
+          "validFor": null,
+          "value": "KAN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kanuri",
+          "validFor": null,
+          "value": "KAU"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Karachay-Balkar",
+          "validFor": null,
+          "value": "KRC"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kara-Kalpak",
+          "validFor": null,
+          "value": "KAA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Karelian",
+          "validFor": null,
+          "value": "KRL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Karen languages",
+          "validFor": null,
+          "value": "KAR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kashmiri",
+          "validFor": null,
+          "value": "KAS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kashubian",
+          "validFor": null,
+          "value": "CSB"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kawi",
+          "validFor": null,
+          "value": "KAW"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kazakh",
+          "validFor": null,
+          "value": "KAZ"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Khasi",
+          "validFor": null,
+          "value": "KHA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Khoisan languages",
+          "validFor": null,
+          "value": "KHI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Khotanese",
+          "validFor": null,
+          "value": "KHO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kikuyu",
+          "validFor": null,
+          "value": "KIK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kimbundu",
+          "validFor": null,
+          "value": "KMB"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kinyarwanda",
+          "validFor": null,
+          "value": "KIN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kirghiz",
+          "validFor": null,
+          "value": "KIR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Klingon",
+          "validFor": null,
+          "value": "TLH"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Komi",
+          "validFor": null,
+          "value": "KOM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kongo",
+          "validFor": null,
+          "value": "KON"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Konkani",
+          "validFor": null,
+          "value": "KOK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Korean",
+          "validFor": null,
+          "value": "KOR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kosraean",
+          "validFor": null,
+          "value": "KOS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kpelle",
+          "validFor": null,
+          "value": "KPE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kru languages",
+          "validFor": null,
+          "value": "KRO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kuanyama",
+          "validFor": null,
+          "value": "KUA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kumyk",
+          "validFor": null,
+          "value": "KUM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kurdish",
+          "validFor": null,
+          "value": "KUR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kurukh",
+          "validFor": null,
+          "value": "KRU"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kutenai",
+          "validFor": null,
+          "value": "KUT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Ladino",
+          "validFor": null,
+          "value": "LAD"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lahnda",
+          "validFor": null,
+          "value": "LAH"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lamba",
+          "validFor": null,
+          "value": "LAM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Land Dayak languages",
+          "validFor": null,
+          "value": "DAY"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lao",
+          "validFor": null,
+          "value": "LAO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Latin",
+          "validFor": null,
+          "value": "LAT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Latvian",
+          "validFor": null,
+          "value": "LAV"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lezghian",
+          "validFor": null,
+          "value": "LEZ"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Limburgan",
+          "validFor": null,
+          "value": "LIM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lingala",
+          "validFor": null,
+          "value": "LIN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lithuanian",
+          "validFor": null,
+          "value": "LIT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lojban",
+          "validFor": null,
+          "value": "JBO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Low German",
+          "validFor": null,
+          "value": "NDS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lower Sorbian",
+          "validFor": null,
+          "value": "DSB"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lozi",
+          "validFor": null,
+          "value": "LOZ"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Luba-Katanga",
+          "validFor": null,
+          "value": "LUB"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Luba-Lulua",
+          "validFor": null,
+          "value": "LUA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Luiseno",
+          "validFor": null,
+          "value": "LUI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lule Sami",
+          "validFor": null,
+          "value": "SMJ"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lunda",
+          "validFor": null,
+          "value": "LUN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Luo (Kenya and Tanzania)",
+          "validFor": null,
+          "value": "LUO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lushai",
+          "validFor": null,
+          "value": "LUS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Luxembourgish",
+          "validFor": null,
+          "value": "LTZ"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Macedonian",
+          "validFor": null,
+          "value": "MAC"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Madurese",
+          "validFor": null,
+          "value": "MAD"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Magahi",
+          "validFor": null,
+          "value": "MAG"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Maithili",
+          "validFor": null,
+          "value": "MAI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Makasar",
+          "validFor": null,
+          "value": "MAK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Malagasy",
+          "validFor": null,
+          "value": "MLG"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Malay",
+          "validFor": null,
+          "value": "MAY"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Malayalam",
+          "validFor": null,
+          "value": "MAL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Maltese",
+          "validFor": null,
+          "value": "MLT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Manchu",
+          "validFor": null,
+          "value": "MNC"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mandar",
+          "validFor": null,
+          "value": "MDR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mandingo",
+          "validFor": null,
+          "value": "MAN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Manipuri",
+          "validFor": null,
+          "value": "MNI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Manobo languages",
+          "validFor": null,
+          "value": "MNO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Manx",
+          "validFor": null,
+          "value": "GLV"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Maori",
+          "validFor": null,
+          "value": "MAO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mapudungun",
+          "validFor": null,
+          "value": "ARN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Marathi",
+          "validFor": null,
+          "value": "MAR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mari",
+          "validFor": null,
+          "value": "CHM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Marshallese",
+          "validFor": null,
+          "value": "MAH"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Marwari",
+          "validFor": null,
+          "value": "MWR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Masai",
+          "validFor": null,
+          "value": "MAS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mayan languages",
+          "validFor": null,
+          "value": "MYN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mende",
+          "validFor": null,
+          "value": "MEN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mi'kmaq",
+          "validFor": null,
+          "value": "MIC"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Minangkabau",
+          "validFor": null,
+          "value": "MIN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mirandese",
+          "validFor": null,
+          "value": "MWL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mohawk",
+          "validFor": null,
+          "value": "MOH"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Moksha",
+          "validFor": null,
+          "value": "MDF"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mongo",
+          "validFor": null,
+          "value": "LOL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mongolian",
+          "validFor": null,
+          "value": "MON"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mon-Khmer languages",
+          "validFor": null,
+          "value": "MKH"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Montenegrin",
+          "validFor": null,
+          "value": "CNR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mossi",
+          "validFor": null,
+          "value": "MOS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Multiple languages",
+          "validFor": null,
+          "value": "MUL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Munda languages",
+          "validFor": null,
+          "value": "MUN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Nahuatl languages",
+          "validFor": null,
+          "value": "NAH"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Nauru",
+          "validFor": null,
+          "value": "NAU"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Navajo",
+          "validFor": null,
+          "value": "NAV"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Ndebele, North",
+          "validFor": null,
+          "value": "NDE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Ndebele, South",
+          "validFor": null,
+          "value": "NBL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Ndonga",
+          "validFor": null,
+          "value": "NDO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Neapolitan",
+          "validFor": null,
+          "value": "NAP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Nepal Bhasa",
+          "validFor": null,
+          "value": "NEW"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Nepali",
+          "validFor": null,
+          "value": "NEP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Nias",
+          "validFor": null,
+          "value": "NIA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Niger-Kordofanian languages",
+          "validFor": null,
+          "value": "NIC"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Nilo-Saharan languages",
+          "validFor": null,
+          "value": "SSA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Niuean",
+          "validFor": null,
+          "value": "NIU"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "N'Ko",
+          "validFor": null,
+          "value": "NQO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "No linguistic content",
+          "validFor": null,
+          "value": "ZXX"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Nogai",
+          "validFor": null,
+          "value": "NOG"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Norse, Old",
+          "validFor": null,
+          "value": "NON"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "North American Indian languages",
+          "validFor": null,
+          "value": "NAI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Northern Frisian",
+          "validFor": null,
+          "value": "FRR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Northern Sami",
+          "validFor": null,
+          "value": "SME"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Norwegian",
+          "validFor": null,
+          "value": "NOR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Norwegian Nynorsk",
+          "validFor": null,
+          "value": "NNO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Nubian languages",
+          "validFor": null,
+          "value": "NUB"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Nyamwezi",
+          "validFor": null,
+          "value": "NYM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Nyankole",
+          "validFor": null,
+          "value": "NYN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Nyoro",
+          "validFor": null,
+          "value": "NYO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Nzima",
+          "validFor": null,
+          "value": "NZI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Occitan (post 1500)",
+          "validFor": null,
+          "value": "OCI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Official Aramaic (700-300 BCE)",
+          "validFor": null,
+          "value": "ARC"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Ojibwa",
+          "validFor": null,
+          "value": "OJI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Oriya",
+          "validFor": null,
+          "value": "ORI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Oromo",
+          "validFor": null,
+          "value": "ORM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Osage",
+          "validFor": null,
+          "value": "OSA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Ossetian",
+          "validFor": null,
+          "value": "OSS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Otomian languages",
+          "validFor": null,
+          "value": "OTO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pahlavi",
+          "validFor": null,
+          "value": "PAL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Palauan",
+          "validFor": null,
+          "value": "PAU"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pali",
+          "validFor": null,
+          "value": "PLI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pampanga",
+          "validFor": null,
+          "value": "PAM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pangasinan",
+          "validFor": null,
+          "value": "PAG"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Panjabi",
+          "validFor": null,
+          "value": "PAN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Papiamento",
+          "validFor": null,
+          "value": "PAP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Papuan languages",
+          "validFor": null,
+          "value": "PAA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pedi",
+          "validFor": null,
+          "value": "NSO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Persian",
+          "validFor": null,
+          "value": "PER"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Persian, Old (ca.600-400 B.C.)",
+          "validFor": null,
+          "value": "PEO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Philippine languages",
+          "validFor": null,
+          "value": "PHI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Phoenician",
+          "validFor": null,
+          "value": "PHN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pohnpeian",
+          "validFor": null,
+          "value": "PON"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Polish",
+          "validFor": null,
+          "value": "POL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Portuguese",
+          "validFor": null,
+          "value": "POR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Prakrit languages",
+          "validFor": null,
+          "value": "PRA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Provençal, Old (to 1500)",
+          "validFor": null,
+          "value": "PRO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pushto",
+          "validFor": null,
+          "value": "PUS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Quechua",
+          "validFor": null,
+          "value": "QUE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Rajasthani",
+          "validFor": null,
+          "value": "RAJ"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Rapanui",
+          "validFor": null,
+          "value": "RAP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Rarotongan",
+          "validFor": null,
+          "value": "RAR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Romance languages",
+          "validFor": null,
+          "value": "ROA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Romanian",
+          "validFor": null,
+          "value": "RUM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Romansh",
+          "validFor": null,
+          "value": "ROH"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Romany",
+          "validFor": null,
+          "value": "ROM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Rundi",
+          "validFor": null,
+          "value": "RUN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Russian",
+          "validFor": null,
+          "value": "RUS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Salishan languages",
+          "validFor": null,
+          "value": "SAL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Samaritan Aramaic",
+          "validFor": null,
+          "value": "SAM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sami languages",
+          "validFor": null,
+          "value": "SMI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Samoan",
+          "validFor": null,
+          "value": "SMO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sandawe",
+          "validFor": null,
+          "value": "SAD"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sango",
+          "validFor": null,
+          "value": "SAG"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sanskrit",
+          "validFor": null,
+          "value": "SAN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Santali",
+          "validFor": null,
+          "value": "SAT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sardinian",
+          "validFor": null,
+          "value": "SRD"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sasak",
+          "validFor": null,
+          "value": "SAS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Scots",
+          "validFor": null,
+          "value": "SCO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Selkup",
+          "validFor": null,
+          "value": "SEL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Semitic languages",
+          "validFor": null,
+          "value": "SEM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Serbian",
+          "validFor": null,
+          "value": "SRP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Serer",
+          "validFor": null,
+          "value": "SRR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Shan",
+          "validFor": null,
+          "value": "SHN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Shona",
+          "validFor": null,
+          "value": "SNA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sichuan Yi",
+          "validFor": null,
+          "value": "III"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sicilian",
+          "validFor": null,
+          "value": "SCN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sidamo",
+          "validFor": null,
+          "value": "SID"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sign Languages",
+          "validFor": null,
+          "value": "SGN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Siksika",
+          "validFor": null,
+          "value": "BLA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sindhi",
+          "validFor": null,
+          "value": "SND"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sinhala",
+          "validFor": null,
+          "value": "SIN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sino-Tibetan languages",
+          "validFor": null,
+          "value": "SIT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Siouan languages",
+          "validFor": null,
+          "value": "SIO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Skolt Sami",
+          "validFor": null,
+          "value": "SMS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Slave (Athapascan)",
+          "validFor": null,
+          "value": "DEN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Slavic languages",
+          "validFor": null,
+          "value": "SLA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Slovak",
+          "validFor": null,
+          "value": "SLO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Slovenian",
+          "validFor": null,
+          "value": "SLV"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sogdian",
+          "validFor": null,
+          "value": "SOG"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Somali",
+          "validFor": null,
+          "value": "SOM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Songhai languages",
+          "validFor": null,
+          "value": "SON"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Soninke",
+          "validFor": null,
+          "value": "SNK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sorbian languages",
+          "validFor": null,
+          "value": "WEN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sotho, Southern",
+          "validFor": null,
+          "value": "SOT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "South American Indian languages",
+          "validFor": null,
+          "value": "SAI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Southern Altai",
+          "validFor": null,
+          "value": "ALT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Southern Sami",
+          "validFor": null,
+          "value": "SMA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Spanish",
+          "validFor": null,
+          "value": "SPA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sranan Tongo",
+          "validFor": null,
+          "value": "SRN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Standard Moroccan Tamazight",
+          "validFor": null,
+          "value": "ZGH"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sukuma",
+          "validFor": null,
+          "value": "SUK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sumerian",
+          "validFor": null,
+          "value": "SUX"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sundanese",
+          "validFor": null,
+          "value": "SUN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Susu",
+          "validFor": null,
+          "value": "SUS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Swahili",
+          "validFor": null,
+          "value": "SWA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Swati",
+          "validFor": null,
+          "value": "SSW"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Swedish",
+          "validFor": null,
+          "value": "SWE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Swiss German",
+          "validFor": null,
+          "value": "GSW"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Syriac",
+          "validFor": null,
+          "value": "SYR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tagalog",
+          "validFor": null,
+          "value": "TGL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tahitian",
+          "validFor": null,
+          "value": "TAH"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tai languages",
+          "validFor": null,
+          "value": "TAI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tajik",
+          "validFor": null,
+          "value": "TGK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tamashek",
+          "validFor": null,
+          "value": "TMH"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tamil",
+          "validFor": null,
+          "value": "TAM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tatar",
+          "validFor": null,
+          "value": "TAT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Telugu",
+          "validFor": null,
+          "value": "TEL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tereno",
+          "validFor": null,
+          "value": "TER"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tetum",
+          "validFor": null,
+          "value": "TET"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Thai",
+          "validFor": null,
+          "value": "THA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tibetan",
+          "validFor": null,
+          "value": "TIB"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tigre",
+          "validFor": null,
+          "value": "TIG"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tigrinya",
+          "validFor": null,
+          "value": "TIR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Timne",
+          "validFor": null,
+          "value": "TEM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tiv",
+          "validFor": null,
+          "value": "TIV"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tlingit",
+          "validFor": null,
+          "value": "TLI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tok Pisin",
+          "validFor": null,
+          "value": "TPI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tokelau",
+          "validFor": null,
+          "value": "TKL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tonga (Nyasa)",
+          "validFor": null,
+          "value": "TOG"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tonga (Tonga Islands)",
+          "validFor": null,
+          "value": "TON"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tsimshian",
+          "validFor": null,
+          "value": "TSI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tsonga",
+          "validFor": null,
+          "value": "TSO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tswana",
+          "validFor": null,
+          "value": "TSN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tumbuka",
+          "validFor": null,
+          "value": "TUM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tupi languages",
+          "validFor": null,
+          "value": "TUP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Turkish",
+          "validFor": null,
+          "value": "TUR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Turkish, Ottoman (1500-1928)",
+          "validFor": null,
+          "value": "OTA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Turkmen",
+          "validFor": null,
+          "value": "TUK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tuvalu",
+          "validFor": null,
+          "value": "TVL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tuvinian",
+          "validFor": null,
+          "value": "TYV"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Twi",
+          "validFor": null,
+          "value": "TWI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Udmurt",
+          "validFor": null,
+          "value": "UDM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Ugaritic",
+          "validFor": null,
+          "value": "UGA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Uighur",
+          "validFor": null,
+          "value": "UIG"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Ukrainian",
+          "validFor": null,
+          "value": "UKR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Umbundu",
+          "validFor": null,
+          "value": "UMB"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Uncoded languages",
+          "validFor": null,
+          "value": "MIS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Undetermined",
+          "validFor": null,
+          "value": "UND"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Upper Sorbian",
+          "validFor": null,
+          "value": "HSB"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Urdu",
+          "validFor": null,
+          "value": "URD"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Uzbek",
+          "validFor": null,
+          "value": "UZB"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Vai",
+          "validFor": null,
+          "value": "VAI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Venda",
+          "validFor": null,
+          "value": "VEN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Vietnamese",
+          "validFor": null,
+          "value": "VIE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Volapük",
+          "validFor": null,
+          "value": "VOL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Votic",
+          "validFor": null,
+          "value": "VOT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Wakashan languages",
+          "validFor": null,
+          "value": "WAK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Walloon",
+          "validFor": null,
+          "value": "WLN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Waray",
+          "validFor": null,
+          "value": "WAR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Washo",
+          "validFor": null,
+          "value": "WAS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Welsh",
+          "validFor": null,
+          "value": "WEL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Western Frisian",
+          "validFor": null,
+          "value": "FRY"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Wolaitta",
+          "validFor": null,
+          "value": "WAL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Wolof",
+          "validFor": null,
+          "value": "WOL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Xhosa",
+          "validFor": null,
+          "value": "XHO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Yakut",
+          "validFor": null,
+          "value": "SAH"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Yao",
+          "validFor": null,
+          "value": "YAO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Yapese",
+          "validFor": null,
+          "value": "YAP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Yiddish",
+          "validFor": null,
+          "value": "YID"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Yoruba",
+          "validFor": null,
+          "value": "YOR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Yupik languages",
+          "validFor": null,
+          "value": "YPK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Zande languages",
+          "validFor": null,
+          "value": "ZND"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Zapotec",
+          "validFor": null,
+          "value": "ZAP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Zaza",
+          "validFor": null,
+          "value": "ZZA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Zenaga",
+          "validFor": null,
+          "value": "ZEN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Zhuang",
+          "validFor": null,
+          "value": "ZHA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Zulu",
+          "validFor": null,
+          "value": "ZUL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Zuni",
+          "validFor": null,
+          "value": "ZUN"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    }
+  ],
+  "label": "Result Type",
+  "childRelationships": [
+    {
+      "cascadeDelete": true,
+      "childSObject": "ActivityHistory",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ActivityHistories",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "AttachedContentDocument",
+      "deprecatedAndHidden": false,
+      "field": "LinkedEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "AttachedContentDocuments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "AttachedContentNote",
+      "deprecatedAndHidden": false,
+      "field": "LinkedEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "AttachedContentNotes",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "Attachment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Attachments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "CollaborationGroupRecord",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "RecordAssociatedGroups",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "CombinedAttachment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "CombinedAttachments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ContactRequest",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ContactRequests",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ContentDistribution",
+      "deprecatedAndHidden": false,
+      "field": "RelatedRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ContentDocumentLink",
+      "deprecatedAndHidden": false,
+      "field": "LinkedEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ContentDocumentLinks",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ContentVersion",
+      "deprecatedAndHidden": false,
+      "field": "FirstPublishLocationId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "DuplicateRecordItem",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "DuplicateRecordItems",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "EmailMessage",
+      "deprecatedAndHidden": false,
+      "field": "RelatedToId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Emails",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "EntitySubscription",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "FeedSubscriptionsForEntity",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "Event",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Events",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "EventChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "EventRelationChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "RelationId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FeedComment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "FeedItem",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FlowRecordRelation",
+      "deprecatedAndHidden": false,
+      "field": "RelatedRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "Note",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Notes",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "NoteAndAttachment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "NotesAndAttachments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "OpenActivity",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "OpenActivities",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "OutgoingEmail",
+      "deprecatedAndHidden": false,
+      "field": "RelatedToId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ProcessInstance",
+      "deprecatedAndHidden": false,
+      "field": "TargetObjectId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ProcessInstances",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ProcessInstanceHistory",
+      "deprecatedAndHidden": false,
+      "field": "TargetObjectId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ProcessSteps",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "RecordAction",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "RecordActions",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "RecordActionHistory",
+      "deprecatedAndHidden": false,
+      "field": "ParentRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "RecordActionHistories",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "Task",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Tasks",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "TaskChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "TopicAssignment",
+      "deprecatedAndHidden": false,
+      "field": "EntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "TopicAssignments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "compliancequest__SQX_Audit_Checklist__c",
+      "deprecatedAndHidden": false,
+      "field": "compliancequest__SQX_Result_Type__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "compliancequest__SQX_Audit_Checklists__r",
+      "restrictedDelete": true
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "compliancequest__SQX_Criterion_Requirement__c",
+      "deprecatedAndHidden": false,
+      "field": "compliancequest__SQX_Result_Type__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "compliancequest__SQX_Criterion_Requirements__r",
+      "restrictedDelete": true
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "compliancequest__SQX_Doc_Criterion_Requirement__c",
+      "deprecatedAndHidden": false,
+      "field": "compliancequest__SQX_Result_Type__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "compliancequest__SQX_Doc_Criterion_Requirements__r",
+      "restrictedDelete": true
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "compliancequest__SQX_Result_Type_Value__c",
+      "deprecatedAndHidden": false,
+      "field": "compliancequest__SQX_Result_Type__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "compliancequest__SQX_Result_Type_Values__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "compliancequest__SQX_Result_Type__History",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Histories",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "compliancequest__SQX_Task_Question__c",
+      "deprecatedAndHidden": false,
+      "field": "compliancequest__SQX_Result_Type__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "compliancequest__SQX_Questions__r",
+      "restrictedDelete": false
+    }
+  ],
+  "custom": true,
+  "name": "compliancequest__SQX_Result_Type__c",
+  "queryable": true
+}
